@@ -1,0 +1,47 @@
+{
+    "name": "The Tithe Barn",
+    
+    "contents": [
+        {
+            "contents": "Walk down the rue Saint Jean. At the end of it, on your left, you will find the Tithe Barn.",
+            "type": "paragraph"
+        },
+
+        {
+            "contents": "270 metres",
+            "type": "paragraph",
+            "icon": "footprints.png"
+        },
+
+        {
+            "contents": "Welcome to the market place!",
+            "type": "title"
+        },
+        
+        {
+            "contents": "Look at the stones on the wall. They are called “crows”.",
+            "type": "paragraph"
+        }     
+    ],
+
+    "question": {
+        "contents": "What were the crows used for?",
+        
+        "choices": [
+            "To hang goods",
+            "To decorate the place",
+            "To serve as perches for birds",
+            "To protect the people in the market place"
+        ],
+        
+        "answer": 3 ,
+
+        "explanations" : [
+            {
+                "type": "paragraph",
+                "contents": "Formerly, there were so many stalls along the street  that it was impossible to see the sky because of their awnings."
+            }
+
+        ]
+    }
+}

@@ -1,0 +1,37 @@
+{
+    "name": "The underground galleries",
+    
+    "contents": [
+
+        {
+            "contents": "The maze",
+            "type": "title"
+        },
+        
+        {
+            "contents": "Beneath the Hôtel-Dieu, there are lots of galleries whose walls are decorated with paintings.",
+            "type": "paragraph"
+        }     
+    ],
+
+    "question": {
+        "contents": "Do you know why these galleries were dug?",
+        
+        "choices": [
+            "To house secret meetings",
+            "To get some useful material",
+            "To provide a passage towards other buildings",
+            "To shelter people in case of danger"
+        ],
+        
+        "answer": 1 ,
+
+        "explanations" : [
+            {
+                "type": "paragraph",
+                "contents": "In the Middle Ages, Fuller’s earth was collected as an ingredient to make clothes.  Later, the galleries were used as a passage between different buildings and as secret places for meetings."
+            }
+
+        ]
+    }
+}

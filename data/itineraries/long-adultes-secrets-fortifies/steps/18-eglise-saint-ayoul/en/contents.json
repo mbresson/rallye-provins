@@ -1,0 +1,47 @@
+{
+    "name": "The Saint Ayoul church",
+    
+    "contents": [
+        {
+            "contents": "Now take the ”rue de la Cordonnerie” on the left of the town hall. Let’s meet on the Saint-Ayoul square at the end of this street.",
+            "type": "paragraph"
+        },
+
+        {
+            "contents": "240 metres",
+            "type": "paragraph",
+            "icon": "footprints.png"
+        },
+
+        {
+            "contents": "Sculptures everywhere",
+            "type": "title"
+        },
+        
+        {
+            "contents": "In the Middle Ages, a lot of fairs and trading took place in front of the church whose tympanum was destroyed by the Religious Wars and the French Revolution. The representation of Christ collapsed in 1985. The present day bronze gate was made by George Jeanclos, a contemporary sculptor. It is also the oldest building in the lower town.",
+            "type": "paragraph"
+        }
+    ],
+
+    "question": {
+        "contents": "How many sculpted gates are there?",
+        
+        "choices": [
+            "1",
+            "2",
+            "3",
+            "None"
+        ],
+        
+        "answer": 2,
+
+        "explanations": [
+            {
+                "alt": "There are three",
+                "type": "image",
+                "src": "facade-saint-ayoul.jpg"
+            }
+        ]
+    }
+}

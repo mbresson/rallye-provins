@@ -1,0 +1,52 @@
+{
+    "name": "Niflette",
+    
+    "contents": [
+        {
+            "contents": "Poursuivre : Tout droit, direction votre prochaine étape ! Suivez la rue du Val jusqu’à la place du Général Leclerc.",
+            "type": "paragraph"
+        },
+
+        {
+            "contents": "210 mètres",
+            "type": "paragraph",
+            "icon": "footprints.png"
+        },
+
+        {
+            "contents": "Ne flete",
+            "type": "title"
+        },
+
+        {
+            "alt": "Photo des niflettes",
+            "type": "image",
+            "src": "niflette.jpg"
+        },
+        
+        {
+            "contents": "Il s’agit d’une pâtisserie traditionnelle de la Toussaint. Leur nom proviendrait du fait qu'elles auraient été à l'origine offertes à cette occasion aux orphelins, en leur disant « Ne flete ».",
+            "type": "paragraph"
+        }
+    ],
+
+    "question": {
+        "contents": "Que signifie l’expression « Ne flete » ?",
+        
+        "choices": [
+            "Ne t'inquiète pas",
+            "Ne mange pas",
+            "Ne t'énerve pas",
+            "Ne pleure pas"
+        ],
+        
+        "answer": 3,
+
+        "explanations": [
+            {
+                "contents": "L’expression “Ne flete” signifie “Ne pleure pas”.",
+                "type": "paragraph"
+            }
+        ]
+    }
+}

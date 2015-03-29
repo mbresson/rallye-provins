@@ -1,0 +1,47 @@
+{
+    "name": "Le Durteint",
+    
+    "contents": [
+        {
+            "contents": "Poursuivre : Sur votre gauche, arrêtez-vous quelques instants devant le Durteint.",
+            "type": "paragraph"
+        },
+
+        {
+            "contents": "100 mètres",
+            "type": "paragraph",
+            "icon": "footprints.png"
+        },
+
+        {
+            "contents": "La rivière capricieuse",
+            "type": "title"
+        },
+        
+        {
+            "contents": "Cette rivière était très utile pour les habitants. On y lavait ses vêtements mais on y colorait également la laine. L’eau donne une couleur bleue à la laine, appelée “bleu ners”.",
+            "type": "paragraph"
+        }     
+    ],
+
+    "question": {
+        "contents": "À ton avis, quels dangers peut provoquer une rivière aussi proche des habitations ?",
+        
+        "choices": [
+            "Risques de noyade",
+            "Effondrement des maisons",
+            "Risques d’inondation",
+            "Présence de moustiques"
+        ],
+        
+        "answer": 2 ,
+
+        "explanations" : [
+            {
+                "type": "paragraph",
+                "contents": "Même si tout ces risques sont présents, on a dû surélever la ville pour éviter les inondations très fréquentes."
+            }
+
+        ]
+    }
+}

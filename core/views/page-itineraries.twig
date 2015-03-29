@@ -1,0 +1,16 @@
+{% extends 'skel/html.twig' %}
+
+{% block section %}
+  <ul class='itineraries'>
+    {% for itinerary_id, itinerary in GLOB.data.itineraries %}
+    <li class='itinerary'>
+      <a href='{{ siteUrl('/itineraries/' ~ itinerary_id) }}' title=''>
+        <h2 class='name'>{{ itinerary.name }}</h2>
+
+        {% include 'table-itinerary-summary.twig' with {'itinerary': itinerary } %}
+      </a>
+    </li>
+    {% endfor %}
+  </ul>
+{% endblock section %}
+

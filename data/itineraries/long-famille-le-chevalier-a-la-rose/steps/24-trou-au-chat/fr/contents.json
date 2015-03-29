@@ -1,0 +1,32 @@
+{
+    "name": "Le Trou-Au-Chat",
+    
+    "contents": [
+        {
+            "contents": "Poursuivre : Continuez jusqu’à apercevoir une forte montée et préparez-vous à l’ascension dite du Trou-Au-Chat.",
+            "type": "paragraph"
+        },
+
+        {
+            "contents": "700 mètres",
+            "type": "paragraph",
+            "icon": "footprints.png"
+        },
+
+        {
+            "contents": "La Faille",
+            "type": "title"
+        },
+        
+        {
+            "contents": "Le chat est une machine de guerre qui sert à faire des trous dans des murs et pouvoir entrer.",
+            "type": "paragraph"
+        },
+
+        {
+            "contents": "Essayez de courir jusqu’au Trou-Au-Chat, le premier arrivé en haut de cette grande colline sera sacré comte de Champagne !",
+            "type": "paragraph"
+        }
+    ]
+
+}

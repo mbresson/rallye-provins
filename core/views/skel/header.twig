@@ -1,0 +1,19 @@
+
+{% if GLOB.page.id != 'start' %}
+<header>
+  <div id='hamburger'>
+    <div></div>
+    <div></div>
+    <div></div>
+  </div><!-- .hamburger -->
+
+  <h1>
+    {% if GLOB.page.id == 'itinerary-step' %}
+    <span class='step-index'>{{ GLOB.data.step.position + 1 }} - </span>{{ GLOB.data.step.name }}
+    {% else %}
+    {{ GLOB.page.title }}
+    {% endif %}
+  </h1>
+</header>
+{% endif %}
+

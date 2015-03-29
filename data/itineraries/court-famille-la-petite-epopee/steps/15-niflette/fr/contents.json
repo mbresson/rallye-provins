@@ -1,0 +1,53 @@
+{
+    "name": "La Niflette",
+    
+    "contents": [
+        {
+            "contents": "Poursuivre : Revenez porte de Jouy et sortez de l'enceinte. Prenez à gauche et longez les remparts.",
+            "type": "paragraph"
+        },
+
+        {
+            "contents": "180 mètres",
+            "type": "paragraph",
+            "icon": "footprints.png"
+        },
+
+        {
+            "contents": "Ne flete",
+            "type": "title"
+        },
+
+        {
+            "alt": "Photo des Niflettes",
+            "type": "image",
+            "src": "niflette.jpg"
+        },
+        
+        {
+            "contents": "Les fameuses niflettes de Provins sont des petits gâteaux offerts aux orphelins le 1er novembre pendant la Toussaint, en leur disant “Ne flete”.",
+            "type": "paragraph"
+        }     
+    ],
+
+    "question": {
+        "contents": "À ton avis, que signifie l’expression « Ne flete » ?",
+        
+        "choices": [
+            "Ne t’inquiète pas",
+            "Ne pleure pas",
+            "Mange-le et tais-toi",
+            "Ne t’énerve pas"
+        ],
+        
+        "answer": 1 ,
+
+        "explanations" : [
+            {
+                "type": "paragraph",
+                "contents": "L’expression “Ne flete” signifie “Ne pleure pas” ."
+            }
+
+        ]
+    }
+}

@@ -1,0 +1,54 @@
+{
+    "name": "The Abbey of the Cordelières",
+    
+    "contents": [
+        {
+            "contents": "Walk along the “Rue Saint Thibault”. At some point on your left, you will find a spot from where you can contemplate the Abbey of the Cordelières.",
+            "type": "paragraph"
+        },
+
+        {
+            "contents": "250 metres",
+            "type": "paragraph",
+            "icon": "footprints.png"
+        },
+
+        {
+            "contents": "The beautiful one apart",
+            "type": "title"
+        },
+
+        {
+            "alt": "Photo of the abbey of the Cordelières",
+            "type": "image",
+            "src": "abbaye-cordelieres.jpg"
+        }, 
+        
+        {
+            "contents": "It was a large hospital outside the town ramparts",
+            "type": "paragraph"
+        }     
+    ],
+
+    "question": {
+        "contents": "Do you have an idea how much it cost to be treated in that hospital?",
+        
+        "choices": [
+            "A horse",
+            "A house",
+            "Nothing",
+            "Some goods"
+        ],
+        
+        "answer": 2,
+
+        "explanations" : [
+            {
+                "type": "paragraph",
+                "contents": "Poor people and pilgrims were taken care of for free. Today, some documents are kept there."
+            }
+
+        ]
+    }
+
+}

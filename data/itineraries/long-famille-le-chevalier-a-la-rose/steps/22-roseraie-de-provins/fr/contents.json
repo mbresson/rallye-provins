@@ -1,0 +1,52 @@
+{
+    "name": "La Roseraie de Provins",
+    
+    "contents": [
+        {
+            "contents": "Poursuivre : Traversez le parc pour rejoindre le boulevard d’Aligre. Prenez alors à gauche. Sur le chemin, vous pourrez observer à votre droite un nouveau point de vue sur l’Abbaye des Cordelières. Puis, tournez à gauche rue des Près, vous verrez alors la Roseraie de Provins.",
+            "type": "paragraph"
+        },
+
+        {
+            "contents": "500 mètres",
+            "type": "paragraph",
+            "icon": "footprints.png"
+        },
+
+        {
+            "contents": "La Rose du temps",
+            "type": "title"
+        },
+        
+        {
+            "contents": "La Roseraie s’étend sur 3 hectares et on y trouve plus de 300 variétés de roses. Même si elle ne ressemble pas une rose, cette fleur est bien la rose de Provins.",
+            "type": "paragraph"
+        },
+
+        {
+            "alt": "Photo de la Rose de Provins",
+            "type": "image",
+            "src": "rose.jpg"
+        } 
+    ],
+
+    "question": {
+        "contents": "À quoi servait cette rose ?",
+        
+        "choices": [
+            "Soigner les gens",
+            "Parfumer la nourriture",
+            "Faire de la peinture",
+            "Faire des bouquets"
+        ],
+        
+        "answer": 0,
+
+        "explanations" : [
+            {
+                "contents": "En confit, sirop ou lotion, cette rose peut être utilisée pour soigner de nombreuses maladies.",
+                "type": "paragraph"
+            }
+        ]
+    }
+}

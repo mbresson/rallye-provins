@@ -1,0 +1,47 @@
+{% extends 'skel/html.twig' %}
+
+{% block section %}
+
+<h3>{% trans %}Your progression:{% endtrans %}</h3>
+
+<div class='progress' data-numsteps='{{ GLOB.data.steps|length }}'>
+  <div class='step-container start'>
+    <img src="{{ GLOB.Router.root }}img/progress-start.png" alt="" />
+  </div>
+
+  <div class='step-container line'>
+    <div class='step'></div>
+  </div>
+
+  <div class='step-container cursor'>
+    <div class='step'></div>
+  </div>
+
+  <div class='step-container line'>
+    <div class='step'></div>
+  </div>
+
+  <div class='step-container end'>
+    <img src="{{ GLOB.Router.root }}img/progress-end.png" alt="" />
+  </div>
+</div>
+
+<ul class='steps' data-itinerary='{{ GLOB.data.itinerary.id }}'>
+  {% for step_position, step in GLOB.data.steps %}
+  <li class='step state-locked' data-position='{{ step_position }}'>
+    <h3>
+      <a href='{{ siteUrl('itineraries/' ~ GLOB.data.itinerary.id ~ '/' ~ step.id) }}' title='' class='step-url'>
+        <img alt='{% trans('Locked') %} - ' src='{{ GLOB.Router.root }}img/step-locked.png' class='icon state state-locked' />
+        <img alt='{% trans('Current') %} - ' src='{{ GLOB.Router.root }}img/step-current.png' class='icon state state-current' />
+        <img alt='{% trans('Complete') %} - ' src='{{ GLOB.Router.root }}img/step-complete.png' class='icon state state-complete' />
+
+        <span class='position'>{{ step_position + 1 }} - </span>
+
+        <span class='name'>{{ step.name }}</span>
+      </a>
+    </h3>
+  </li>
+  {% endfor %}
+</ul>
+
+{% endblock section %}

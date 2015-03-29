@@ -1,0 +1,33 @@
+{
+    "steps": [
+      "00-depart",
+      "01-porte-saint-jean",
+      "02-grange-dimes",
+      "03-grange-dimes",
+      "04-place-chatel",
+      "05-tour-cesar",
+      "06-tour-cesar",
+      "07-collegiale-saint-quiriace",
+      "08-musee-provins",
+      "09-rue-st-thibault",
+      "10-blason-provins",
+      "11-provins-general",
+      "12-caveau-du-saint-esprit",
+      "13-porte-de-jouy",
+      "14-remparts",
+      "15-niflette",
+      "16-allee-des-remparts",
+      "17-conclusion"
+    ],
+    
+    "files": [
+      "footprints.png",
+      "blason.png",
+      "niflette.jpg",
+      "place-chatel.jpg",
+      "cloches-cesar.jpg",
+      "grange-interieur.jpg",
+      "clocheton.jpg"
+    ]
+}
+

@@ -1,0 +1,41 @@
+{
+    "name": "Tour César",
+    
+    "contents": [
+        {
+            "contents": "Ding Dong",
+            "type": "title"
+        },
+        
+        {
+            "alt": "Photo des cloches de la Tour César",
+            "type": "image",
+            "src": "cloches-cesar.jpg"
+        },
+
+        {
+            "contents": "Cette tour a été achevée il y a plusieurs siècles déjà mais elle a subi quelques changements à travers le temps : la flèche de Saint-Quiriace a été foudroyée en 1660, le toit et la chemise ont été ajoutés au XVIIe siècle. De plus, la tour est reliée aux souterrains de la ville.",
+            "type": "paragraph"
+        }
+    ],
+
+    "question": {
+        "contents": "Pourquoi y a-t-il des cloches au sommet de la Tour César ?",
+        
+        "choices": [
+            "Pour donner l'alerte",
+            "Pour faire joli",
+            "Pour indiquer l'heure",
+            "Pour les stocker"
+        ],
+        
+        "answer": 3,
+
+        "explanations": [
+            {
+                "contents": "Comme l’église Saint-Quiriace n’a jamais été terminée, les cloches sont stockées dans la Tour César, juste en face.",
+                "type": "paragraph"
+            }
+        ]
+    }
+}

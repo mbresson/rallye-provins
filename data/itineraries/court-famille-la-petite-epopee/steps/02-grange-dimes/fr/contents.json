@@ -1,0 +1,47 @@
+{
+    "name": "La Grange aux dîmes",
+    
+    "contents": [
+        {
+            "contents": "Poursuivre : Continuez tout droit sur la rue Saint-Jean. Au bout de la rue, vous trouverez sur votre gauche la prochaine étape : La Grange aux dîmes.",
+            "type": "paragraph"
+        },
+
+        {
+            "contents": "270 mètres",
+            "type": "paragraph",
+            "icon": "footprints.png"
+        },
+
+        {
+            "contents": "Bienvenue au marché !",
+            "type": "title"
+        },
+        
+        {
+            "contents": "Regarde ces pierres au mur, il paraît que ça s’appelle des corbeaux.",
+            "type": "paragraph"
+        }     
+    ],
+
+    "question": {
+        "contents": "À quoi servaient ces corbeaux ?",
+        
+        "choices": [
+            "Accrocher des marchandises",
+            "Faire joli",
+            "D’endroit où les oiseaux pouvaient se poser",
+            "Pour protéger les gens lors des marchés"
+        ],
+        
+        "answer": 3 ,
+
+        "explanations" : [
+            {
+                "type": "paragraph",
+                "contents": "Autrefois la rue était couverte d'auvents, on ne voyait même plus le ciel tellement il y en avait."
+            }
+
+        ]
+    }
+}

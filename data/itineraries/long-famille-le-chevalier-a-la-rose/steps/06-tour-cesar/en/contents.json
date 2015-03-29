@@ -1,0 +1,37 @@
+{
+    "name": "The Caesar Tower",
+    
+    "contents": [
+        {
+            "contents": "Ding-dong",
+            "type": "title"
+        },
+
+        {
+            "alt": "Photo of the bell tower",
+            "type": "image",
+            "src": "cloches-cesar.jpg"
+        }     
+    ],
+
+    "question": {
+        "contents": "Why did they put bells at the top of this tower?",
+        
+        "choices": [
+            "To give the hour",
+            "To alert the population in case of a danger",
+            "They belong to the church that stands behind",
+            "To decorate the belfry"
+        ],
+        
+        "answer": 2 ,
+
+        "explanations" : [
+            {
+                "type": "paragraph",
+                "contents": "The Saint Quiriace church that stands behind being too small to house the bells, they were installed in the Caesar Tower instead."
+            }
+
+        ]
+    }
+}

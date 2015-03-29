@@ -1,0 +1,26 @@
+{
+    "name": "L'Église Sainte-Croix",
+    
+    "contents": [
+        {
+            "contents": "Poursuivre : Revenir sur la place Saint-Ayoul. Revenez sur vos pas rue de la Cordonnerie. Prenez à droite rue Alain Peyrefitte puis allez à gauche rue du petit Cimetière Sainte-Croix où vous apercevrez l’Église Sainte-Croix.",
+            "type": "paragraph"
+        },
+
+        {
+            "contents": "400 mètres",
+            "type": "paragraph",
+            "icon": "footprints.png"
+        },
+
+        {
+            "contents": "La Croix du Christ",
+            "type": "title"
+        },
+        
+        {
+            "contents": "Cette Église, érigée à l'emplacement de la chapelle Saint-Laurent-des-Ponts au XIIe siècle, tient son nom actuel de la vraie Croix du Christ rapportée par Thibaud V lors d’un pèlerinage à Jérusalem. Elle est fermée depuis quarante ans pour cause de travaux de consolidation.",
+            "type": "paragraph"
+        }
+    ]
+}

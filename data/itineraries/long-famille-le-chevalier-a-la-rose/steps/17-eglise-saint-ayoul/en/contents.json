@@ -1,0 +1,48 @@
+{
+    "name": "The Saint-Ayoul church",
+    
+    "contents": [
+        {
+            "contents": "Let’s meet on the Saint-Ayoul square at the end of the “Rue de la Cordonnerie”.",
+            "type": "paragraph"
+        },
+
+        {
+            "contents": "250 metres",
+            "type": "paragraph",
+            "icon": "footprints.png"
+        },
+
+        {
+            "contents": "Sculptures everywhere",
+            "type": "title"
+        },
+        
+        {
+            "contents": "The church is decorated with a lot of sculptures made by craftsmen who didn’t have any sophisticated tools.",
+            "type": "paragraph"
+        }     
+    ],
+
+    "question": {
+        "contents": "How did they sculpt the doors?",
+        
+        "choices": [
+            "With their teeth",
+            "With a hammer and a burin",
+            "Cats scratched the walls",
+            "The rain sculpted them"
+        ],
+        
+        "answer": 1,
+
+        "explanations" : [
+            {
+            "alt": "Photo of the church",
+            "type": "image",
+            "src": "facade-saint-ayoul.jpg"
+            }
+
+        ]
+    }
+}

@@ -1,0 +1,46 @@
+{
+    "name": "Le Caveau du Saint-Esprit",
+    
+    "contents": [
+        {
+            "contents": "Poursuivre : Poursuivez sur la Rue de Jouy, sur votre droite vous apercevrez le Caveau du Saint-Esprit.",
+            "type": "paragraph"
+        },
+
+        {
+            "contents": "190 mètres",
+            "type": "paragraph",
+            "icon": "footprints.png"
+        },
+
+        {
+            "contents": "La Salle basse",
+            "type": "title"
+        },
+        
+        {
+            "contents": "Le caveau du Saint-Esprit est une grande salle basse voûtée, dernier vestige d’un ancien hôpital. Aujourd’hui, celle salle sert pour les réceptions privées et n’est pas visitable.",
+            "type": "paragraph"
+        }
+    ],
+
+    "question": {
+        "contents": "Quels types de personnes cet hôpital pouvait-il accueillir ?",
+        
+        "choices": [
+            "Les riches",
+            "Les pauvres",
+            "Les vieillards",
+            "La classe moyenne"
+        ],
+        
+        "answer": [1, 2],
+
+        "explanations": [
+            {
+                "contents": "D’après la plaque sur le bâtiment, cet ancien hôpital accueillait les pauvres, les vieillards et les enfants.",
+                "type": "paragraph"
+            }
+        ]
+    }
+}

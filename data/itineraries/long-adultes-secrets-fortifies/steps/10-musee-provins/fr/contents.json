@@ -1,0 +1,46 @@
+{
+    "name": "Le Musée de Provins",
+    
+    "contents": [
+        {
+            "contents": "Poursuivre : Placez-vous dos à la Collégiale et prenez à droite rue Pierre Ythier, puis à gauche sur la rue du Palais. Avancez tout droit sur quelques mètres, sur votre gauche vous apercevrez le Musée de Provins et du Provinois.",
+            "type": "paragraph"
+        },
+
+        {
+            "contents": "160 mètres",
+            "type": "paragraph",
+            "icon": "footprints.png"
+        },
+
+        {
+            "contents": "Un arrêt dans le temps",
+            "type": "title"
+        },
+        
+        {
+            "contents": "Au sous-sol de ce musée, on trouve une salle dédiée au objets de la période préhistorique.",
+            "type": "paragraph"
+        }
+    ],
+
+    "question": {
+        "contents": "Quelles sont les particularités de ce musée ?",
+        
+        "choices": [
+            "Date du XIIIe siècle",
+            "Installé dans la maison romane",
+            "L'une des plus anciennes maisons de la ville",
+            "Il a été rénové après un incendie"
+        ],
+        
+        "answer": [1, 2],
+
+        "explanations": [
+            {
+                "contents": "Installé dans la Maison Romane (XIIe siècle), l’une des plus anciennes maisons de la ville, le musée présente des collections datant de l’Antiquité au XIXe siècle liées à l’histoire de Provins et de ses environs.",
+                "type": "paragraph"
+            }
+        ]
+    }
+}

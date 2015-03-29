@@ -1,0 +1,52 @@
+{
+    "name": "The Jouy Door",
+    
+    "contents": [
+        {
+            "contents": "Keep walking along the ramparts to the Jouy Door. Why not climb the ramparts?",
+            "type": "paragraph"
+        },
+
+        {
+            "contents": "110 metres",
+            "type": "paragraph",
+            "icon": "footprints.png"
+        },
+
+        {
+            "contents": "Where you meet the eagles",
+            "type": "title"
+        },
+        
+        {
+            "contents": "It was built in the 13th century and recently renovated. There used to be a pinnacle turret and you can attend the show “The Eagles of the Ramparts” from it.",
+            "type": "paragraph"
+        }
+    ],
+
+    "question": {
+        "contents": "Do you know what a pinnacle turret is?",
+        
+        "choices": [
+            "A small dungeon with a bell",
+            "A small bell",
+            "A hook to open doors with",
+            "A door handle"
+        ],
+        
+        "answer": 0,
+
+        "explanations": [
+            {
+                "alt": "Photo of the pinnacle turret",
+                "type": "image",
+                "src": "clocheton.jpg"
+            },
+            
+            {
+                "contents": "It is a small dungeon that was used as a watch tower to alert the population in case of a danger.",
+                "type": "paragraph"
+            }
+        ]
+    }
+}

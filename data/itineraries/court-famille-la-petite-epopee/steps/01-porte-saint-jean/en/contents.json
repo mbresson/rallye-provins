@@ -1,0 +1,36 @@
+{
+    "name": "The Saint Jean Door",
+    
+    "contents": [
+        {
+            "contents": "A well-guarded door",
+            "type": "title"
+        },
+        
+        {
+            "contents": "Do you know that the door is made of stones that are 800 years old? Are they older than your house?",
+            "type": "paragraph"
+        }     
+    ],
+
+    "question": {
+        "contents": "What was the purpose of the stones you can see on the door?",
+        
+        "choices": [
+            "To stop the canon balls",
+            "To stop the enemy from climbing",
+            "To decorate the door",
+            "Or just to shelter them"
+        ],
+        
+        "answer": 2 ,
+
+        "explanations" : [
+            {
+                "type": "paragraph",
+                "contents": "Their only purpose is to decorate. There are no other stones of this kind anywhere else in the city."
+            }
+
+        ]
+    }
+}

@@ -1,0 +1,53 @@
+{
+    "name": "Niflette",
+    
+    "contents": [
+        {
+            "contents": "Keep on walking along the “Rue du Val” towards your next stop:  The General Leclerc square.",
+            "type": "paragraph"
+        },
+
+        {
+            "contents": "210 metres",
+            "type": "paragraph",
+            "icon": "footprints.png"
+        },
+
+        {
+            "contents": "Ne flete",
+            "type": "title"
+        },
+
+        {
+            "alt": "Photo of some niflettes",
+            "type": "image",
+            "src": "niflette.jpg"
+        },
+        
+        {
+            "contents": "The famous Niflettes of Provins are small cakes that were offered to orphans on November 1, on All Saints’ Day accompanied by these words: “Ne flete”.",
+            "type": "paragraph"
+        }     
+    ],
+
+    "question": {
+        "contents": "What may “Ne flete” mean?",
+        
+        "choices": [
+            "Don't worry",
+            "Don't cry",
+            "Eat it and keep quiet",
+            "Calm down"
+        ],
+        
+        "answer": 1 ,
+
+        "explanations" : [
+            {
+                "type": "paragraph",
+                "contents": "“Ne flete” means “Don't cry” ."
+            }
+
+        ]
+    }
+}

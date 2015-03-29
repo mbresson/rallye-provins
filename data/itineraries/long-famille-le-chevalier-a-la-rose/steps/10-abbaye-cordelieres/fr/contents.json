@@ -1,0 +1,54 @@
+{
+    "name": "Abbaye des Cordelières",
+    
+    "contents": [
+        {
+            "contents": "Poursuivre : Poursuivez tout droit sur la rue Saint Thibault. Sur votre gauche, vous trouverez un point de vue de l’Abbaye des Cordelières.",
+            "type": "paragraph"
+        },
+
+        {
+            "contents": "250 mètres",
+            "type": "paragraph",
+            "icon": "footprints.png"
+        },
+
+        {
+            "contents": "La belle éloignée",
+            "type": "title"
+        },
+
+        {
+            "alt": "Photo de l'Abbaye des Cordelières",
+            "type": "image",
+            "src": "abbaye-cordelieres.jpg"
+        }, 
+        
+        {
+            "contents": "C’était un grand hôpital situé en dehors des remparts de la ville.",
+            "type": "paragraph"
+        }     
+    ],
+
+    "question": {
+        "contents": "À ton avis, combien coûtait les soins dans cet hôpital ?",
+        
+        "choices": [
+            "Un cheval",
+            "Une maison",
+            "Gratuit",
+            "Des bonbons"
+        ],
+        
+        "answer": 2,
+
+        "explanations" : [
+            {
+                "type": "paragraph",
+                "contents": "Cet hôpital servait à aider les pauvres et les pèlerins. Aujourd’hui, on peut y trouver des documents très précieux."
+            }
+
+        ]
+    }
+
+}

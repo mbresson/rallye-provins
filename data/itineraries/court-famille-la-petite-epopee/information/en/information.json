@@ -1,0 +1,12 @@
+{
+    "name": "A short adventure",
+    
+    "category": "Initiation",
+    
+    "target": "Family",
+    
+    "pitch": "Set off on an adventure in Provins with the help of the Knight.",
+    
+    "start": "Saint-Jean Door",
+    "arrival": "Saint-Jean Door"
+}

@@ -1,0 +1,32 @@
+{
+    "name": "Place du Châtel",
+    
+    "contents": [
+        {
+            "contents": "Poursuivre : Tournez à droite sur la rue Couverte.",
+            "type": "paragraph"
+        },
+
+        {
+            "contents": "110 mètres",
+            "type": "paragraph",
+            "icon": "footprints.png"
+        },
+
+        {
+            "contents": "Un lieu d'échanges",
+            "type": "title"
+        },
+
+        {
+            "alt": "Photo de la Croix de la place du Châtel",
+            "type": "image",
+            "src": "place-chatel.jpg"
+        },
+        
+        {
+            "contents": "Cette place se situe au centre de la ville Haute au milieu de laquelle trône la Croix des Changes. Au pied de cette croix avaient lieu les échanges et transactions lors des grandes foires de Champagne.",
+            "type": "paragraph"
+        }
+    ]
+}

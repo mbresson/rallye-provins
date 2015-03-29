@@ -1,0 +1,36 @@
+{
+    "name": "La Porte Saint Jean",
+    
+    "contents": [
+        {
+            "contents": "Entrée bien gardée",
+            "type": "title"
+        },
+        
+        {
+            "contents": "Sais-tu que les pierres utilisées pour construire cette porte ont 800 ans ? Est-ce que c’est plus vieux que ta maison ?",
+            "type": "paragraph"
+        }     
+    ],
+
+    "question": {
+        "contents": "À quoi pouvaient servir ces pierres sur la façade de la muraille-porte ?",
+        
+        "choices": [
+            "Arrêter les boulets",
+            "Empêcher les ennemis de grimper",
+            "Faire joli",
+            "Pouvoir garder les pierres en bon état"
+        ],
+        
+        "answer": 2 ,
+
+        "explanations" : [
+            {
+                "type": "paragraph",
+                "contents": "Ces pierres servent seulement à faire joli. Ce sont les seules de la ville à être comme ça."
+            }
+
+        ]
+    }
+}

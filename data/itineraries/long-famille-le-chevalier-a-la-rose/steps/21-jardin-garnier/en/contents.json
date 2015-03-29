@@ -1,0 +1,64 @@
+{
+    "name": "The Garnier garden",
+    
+    "contents": [
+        {
+            "contents": "Walk down the “Rue du petit cimetière de Sainte-Croix” and straight ahead into the “Rue Toussaint Rose” then turn right into the “Rue Valentin Abeille” and then walk into the Garnier garden.",
+            "type": "paragraph"
+        },
+
+        {
+            "contents": "160 metres",
+            "type": "paragraph",
+            "icon": "footprints.png"
+        },
+
+        {
+            "contents": "A space to relax",
+            "type": "title"
+        },
+
+        {
+            "alt": "Photo of the entrance to the garden",
+            "type": "image",
+            "src": "jardin-garnier.jpg"
+        },
+        
+        {
+            "contents": "Today, it is a public garden.",
+            "type": "paragraph"
+        },
+
+        {
+            "alt": "Photo of the statue",
+            "type": "image",
+            "src": "statue-garnier.jpg"
+        },
+
+        {
+            "contents": "The first to find the statue represented in the picture is the winner!",
+            "type": "paragraph"
+        }  
+    ],
+
+    "question": {
+        "contents": "Have a look at the statue of the man who gave his name to the garden. Who was he?",
+        
+        "choices": [
+            "Auguste",
+            "George",
+            "Victor",
+            "Thibaut"
+        ],
+        
+        "answer": 2 ,
+
+        "explanations" : [
+            {
+                "type": "paragraph",
+                "contents": "Victor Garnier gave his name to the garden."
+            }
+
+        ]
+    }
+}

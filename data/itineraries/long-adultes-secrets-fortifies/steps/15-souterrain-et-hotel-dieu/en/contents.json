@@ -1,0 +1,35 @@
+{
+    "name": "The underground galleries",
+    
+    "contents": [
+        {
+            "contents": "The maze",
+            "type": "title"
+        },
+        
+        {
+            "contents": "It is a network of galleries decorated with paintings. They were used as a shelter, a warehouse or as a cellar. They start in the Lower room and spread out beneath the whole town.",
+            "type": "paragraph"
+        }
+    ],
+
+    "question": {
+        "contents": "Why were they dug?",
+        
+        "choices": [
+            "To connect the different buildings",
+            "To make traffic easier",
+            "To hold secret meetings",
+            "To extract some construction material"
+        ],
+        
+        "answer": 3,
+
+        "explanations": [
+            {
+                "contents": "In the Middle Ages, the Fuller’s earth was excavated from those galleries and was used by the clothing industry. Later, they were used to connect the different buildings and to hold secret meetings.",
+                "type": "paragraph"
+            }
+        ]
+    }
+}

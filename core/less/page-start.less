@@ -1,0 +1,68 @@
+
+
+/*****************************
+         DEPENDENCIES
+*****************************/
+
+@import 'variables.less';
+
+
+/*****************************
+          VARIABLES
+*****************************/
+
+@cover-height: 200px;
+
+
+/*****************************
+            STYLE
+*****************************/
+
+#page-start {
+
+  section {
+    padding: 0;
+    height: 100%;
+  }
+
+  .cover {
+    width: 100%;
+    min-height: @cover-height;
+    position: relative;
+    background-color: @global-primary-color;
+  }
+
+  .cover img {
+    height: @cover-height;
+    display: block;
+    float: left;
+    margin-left: 5%;
+  }
+
+  .cover h1 {
+    margin: 0;
+    padding-top: @cover-height/2;
+
+    color: white;
+    font-size: 2em;
+  }
+
+  .language-selector {
+    width: 50%;
+    margin: auto;
+    height: 100%;
+  }
+
+  .language-selector a {
+    font-size: 1.2em;
+    font-weight: bold;
+    text-decoration: none;
+    display: block;
+    text-align: center;
+    margin: 20% 0;
+  }
+
+} /* #page-start */
+
+/* DO NOT ADD STYLING AFTER THE FINAL CLOSING BRACE */
+

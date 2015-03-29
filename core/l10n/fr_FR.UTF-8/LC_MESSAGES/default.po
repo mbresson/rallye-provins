@@ -1,0 +1,298 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Rallye Provins\n"
+"POT-Creation-Date: 2015-02-28 18:19+0100\n"
+"PO-Revision-Date: 2015-02-28 18:20+0100\n"
+"Last-Translator: Matthieu Bresson <bresson-matthieu@orange.fr>\n"
+"Language-Team: Rallye Provins <imac2-rallye-provins@googlegroups.com>\n"
+"Language: fr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.7.4\n"
+"X-Poedit-Basepath: .\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-SearchPath-0: ../../..\n"
+"X-Poedit-SearchPathExcluded-0: ../../../grunt\n"
+"X-Poedit-SearchPathExcluded-1: ../../../vendor\n"
+
+#: ../../../kernel/Controllers.php:31
+msgid "Page not found"
+msgstr "Page non trouvée"
+
+#: ../../../kernel/Controllers.php:35
+msgid "Ooops"
+msgstr "Oups"
+
+#: ../../../kernel/Controllers.php:47
+#: ../../../views_cache/f5/46/fe2560227110c0ecd6f337bf5623e5212628ba1d4bf37e6b66228ee37d91.php:204
+#: ../../../views_cache/f5/46/fe2560227110c0ecd6f337bf5623e5212628ba1d4bf37e6b66228ee37d91.php:210
+msgid "Start"
+msgstr "Commencer"
+
+#: ../../../kernel/Controllers.php:55
+msgid "Offline"
+msgstr "Hors-Ligne"
+
+#: ../../../kernel/Controllers.php:73
+#: ../../../views_cache/99/b4/abddf240edfe21d7925d60f0b5ead5f78a94c7bf754e69c49d7e68c9d297.php:156
+msgid "About"
+msgstr "À propos"
+
+#: ../../../kernel/Controllers.php:95
+#: ../../../views_cache/99/b4/abddf240edfe21d7925d60f0b5ead5f78a94c7bf754e69c49d7e68c9d297.php:138
+msgid "Share"
+msgstr "Partager"
+
+#: ../../../kernel/Controllers.php:121
+#: ../../../views_cache/99/b4/abddf240edfe21d7925d60f0b5ead5f78a94c7bf754e69c49d7e68c9d297.php:71
+msgid "Itineraries"
+msgstr "Les parcours"
+
+#: ../../../kernel/Controllers.php:226 ../../../kernel/Controllers.php:242
+#: ../../../views_cache/99/b4/abddf240edfe21d7925d60f0b5ead5f78a94c7bf754e69c49d7e68c9d297.php:53
+msgid "Map"
+msgstr "Carte"
+
+#: ../../../kernel/Controllers.php:288
+msgid "Download"
+msgstr "Téléchargement"
+
+#: ../../../kernel/Controllers.php:333
+msgid "Step"
+msgstr "Étape"
+
+#: ../../../views_cache/07/c4/2c9f29d2176a22d82b13c01663b17f198af7a4b06baca83bfec8cf4e8142.php:34
+msgid "Rallye Provins 2014-2015"
+msgstr "Rallye Provins 2014-2015"
+
+#: ../../../views_cache/07/c4/2c9f29d2176a22d82b13c01663b17f198af7a4b06baca83bfec8cf4e8142.php:39
+msgid ""
+"Rallye Provins is a web application created by a team of four students of "
+"IMAC engineering school. Visitors in Provins can use it to discover the town "
+"in an entertaining way."
+msgstr ""
+"Rallye Provins est une web-application réalisée par un groupe de quatre "
+"étudiants de l’IMAC dans le cadre d’un projet tutoré. Elle permet de "
+"découvrir la ville de Provins de manière ludique."
+
+#: ../../../views_cache/07/c4/2c9f29d2176a22d82b13c01663b17f198af7a4b06baca83bfec8cf4e8142.php:55
+msgid ""
+"If you have any comment or request, please contact us at <a href='mailto:"
+"%email%' title=''>%email%</a>"
+msgstr ""
+"Si vous avez des commentaires ou des suggestions, n’hésitez pas à nous "
+"contacter à <a href='mailto:%email%' title=''>%email%</a>"
+
+#: ../../../views_cache/1c/59/b07c772840d8bcd1989d9fedd8289e2f672c266f85018951c3e80c40fbe4.php:81
+#: ../../../views_cache/9e/34/f0890073649681e273aa929c28841915a18689344c1025dce594f8aaa957.php:68
+msgid "Locked"
+msgstr "Inexploré"
+
+#: ../../../views_cache/1c/59/b07c772840d8bcd1989d9fedd8289e2f672c266f85018951c3e80c40fbe4.php:87
+#: ../../../views_cache/9e/34/f0890073649681e273aa929c28841915a18689344c1025dce594f8aaa957.php:74
+msgid "Current"
+msgstr "Actuel"
+
+#: ../../../views_cache/1c/59/b07c772840d8bcd1989d9fedd8289e2f672c266f85018951c3e80c40fbe4.php:93
+#: ../../../views_cache/9e/34/f0890073649681e273aa929c28841915a18689344c1025dce594f8aaa957.php:80
+msgid "Complete"
+msgstr "Complet"
+
+#: ../../../views_cache/3c/a6/5e1cd827a04242376cd1bacb5d08deb52af0e39ff7246bbd76b042b5aa20.php:61
+#: ../../../views_cache/f5/46/fe2560227110c0ecd6f337bf5623e5212628ba1d4bf37e6b66228ee37d91.php:112
+msgid "Duration:"
+msgstr "Durée :"
+
+#: ../../../views_cache/3c/a6/5e1cd827a04242376cd1bacb5d08deb52af0e39ff7246bbd76b042b5aa20.php:72
+#: ../../../views_cache/f5/46/fe2560227110c0ecd6f337bf5623e5212628ba1d4bf37e6b66228ee37d91.php:123
+msgid "1 hour"
+msgid_plural "%hours% hours"
+msgstr[0] "1 heure"
+msgstr[1] "%hours% heures"
+
+#: ../../../views_cache/3c/a6/5e1cd827a04242376cd1bacb5d08deb52af0e39ff7246bbd76b042b5aa20.php:78
+#: ../../../views_cache/f5/46/fe2560227110c0ecd6f337bf5623e5212628ba1d4bf37e6b66228ee37d91.php:129
+msgid "1 minute"
+msgid_plural "%minutes% minutes"
+msgstr[0] "1 minute"
+msgstr[1] "%minutes% minutes"
+
+#: ../../../views_cache/3c/a6/5e1cd827a04242376cd1bacb5d08deb52af0e39ff7246bbd76b042b5aa20.php:84
+#: ../../../views_cache/f5/46/fe2560227110c0ecd6f337bf5623e5212628ba1d4bf37e6b66228ee37d91.php:135
+msgid "%hours%h%minutes%"
+msgstr "%hours%h%minutes%"
+
+#: ../../../views_cache/3c/a6/5e1cd827a04242376cd1bacb5d08deb52af0e39ff7246bbd76b042b5aa20.php:95
+#: ../../../views_cache/f5/46/fe2560227110c0ecd6f337bf5623e5212628ba1d4bf37e6b66228ee37d91.php:146
+msgid "Distance:"
+msgstr "Distance :"
+
+#: ../../../views_cache/3c/a6/5e1cd827a04242376cd1bacb5d08deb52af0e39ff7246bbd76b042b5aa20.php:106
+#: ../../../views_cache/f5/46/fe2560227110c0ecd6f337bf5623e5212628ba1d4bf37e6b66228ee37d91.php:157
+msgid "%distance% km"
+msgstr "%distance% km"
+
+#: ../../../views_cache/3c/a6/5e1cd827a04242376cd1bacb5d08deb52af0e39ff7246bbd76b042b5aa20.php:114
+#: ../../../views_cache/f5/46/fe2560227110c0ecd6f337bf5623e5212628ba1d4bf37e6b66228ee37d91.php:165
+msgid "Public:"
+msgstr "Public :"
+
+#: ../../../views_cache/42/3c/dcf08bc0a33340a6415d222e3ad4a504e7573d18ffbc6d4bd0d737db41f4.php:35
+msgid ""
+"Sorry! Unfortunately, the device you're using cannot run this application!"
+msgstr ""
+"Désolé ! L'appareil que vous utilisez ne peut pas faire fonctionner cette "
+"application !"
+
+#: ../../../views_cache/50/bf/60f7130a5a2d0cd6787d0d2f4d24dd8b75ba9ad3c5fe6e344cc8781e3a70.php:35
+msgid ""
+"Rallye Provins is on Twitter and Facebook. If you like us, share the word "
+"with your friends."
+msgstr ""
+"Rallye Provins est sur Twitter et Facebook. Si l'expérience vous plaît, "
+"partagez-la avec vos amis."
+
+#: ../../../views_cache/50/bf/60f7130a5a2d0cd6787d0d2f4d24dd8b75ba9ad3c5fe6e344cc8781e3a70.php:48
+msgid "Are you visiting Provins? Give a try to Rallye Provins!"
+msgstr "En train de découvrir Provins ? Essayer le Rallye Provins !"
+
+#: ../../../views_cache/50/bf/60f7130a5a2d0cd6787d0d2f4d24dd8b75ba9ad3c5fe6e344cc8781e3a70.php:61
+msgid "Tweet"
+msgstr "Tweeter"
+
+#: ../../../views_cache/50/bf/60f7130a5a2d0cd6787d0d2f4d24dd8b75ba9ad3c5fe6e344cc8781e3a70.php:71
+msgid "Follow @RallyeProvins"
+msgstr "Suivre @RallyeProvins"
+
+#: ../../../views_cache/99/b4/abddf240edfe21d7925d60f0b5ead5f78a94c7bf754e69c49d7e68c9d297.php:35
+msgid "Home"
+msgstr "Accueil"
+
+#: ../../../views_cache/99/b4/abddf240edfe21d7925d60f0b5ead5f78a94c7bf754e69c49d7e68c9d297.php:120
+msgid "Steps"
+msgstr "Étapes"
+
+#: ../../../views_cache/9a/35/45abcd65ed2853ce009fecd43ac279ffc3abd37edf489d344c76d65f8764.php:34
+msgid "Page not found! Are you lost?"
+msgstr "Page non trouvée ! Seriez-vous égarés ?"
+
+#: ../../../views_cache/9a/35/45abcd65ed2853ce009fecd43ac279ffc3abd37edf489d344c76d65f8764.php:42
+#: ../../../views_cache/9a/35/45abcd65ed2853ce009fecd43ac279ffc3abd37edf489d344c76d65f8764.php:44
+msgid "Go back home"
+msgstr "Retourner à l'accueil"
+
+#: ../../../views_cache/9d/29/37688ea804e2afe2d53f0843dc731699e653f630eff2c2222c5625b1eeca.php:76
+msgid "Multiple choice question"
+msgstr "Question à choix multiples"
+
+#: ../../../views_cache/9d/29/37688ea804e2afe2d53f0843dc731699e653f630eff2c2222c5625b1eeca.php:168
+msgid "Check"
+msgstr "Vérifier"
+
+#: ../../../views_cache/9d/29/37688ea804e2afe2d53f0843dc731699e653f630eff2c2222c5625b1eeca.php:202
+msgid "Go back to the home screen"
+msgstr "Retourner à l'accueil"
+
+#: ../../../views_cache/9d/29/37688ea804e2afe2d53f0843dc731699e653f630eff2c2222c5625b1eeca.php:228
+#: ../../../views_cache/9d/29/37688ea804e2afe2d53f0843dc731699e653f630eff2c2222c5625b1eeca.php:234
+msgid "Previous step"
+msgstr "Étape précédente"
+
+#: ../../../views_cache/9d/29/37688ea804e2afe2d53f0843dc731699e653f630eff2c2222c5625b1eeca.php:257
+#: ../../../views_cache/9d/29/37688ea804e2afe2d53f0843dc731699e653f630eff2c2222c5625b1eeca.php:263
+msgid "Next step"
+msgstr "Étape suivante"
+
+#: ../../../views_cache/9e/34/f0890073649681e273aa929c28841915a18689344c1025dce594f8aaa957.php:50
+msgid "Are you sure you want to go to this step?"
+msgstr "Êtes-vous sûr de vouloir aller à cette étape ?"
+
+#: ../../../views_cache/a6/87/1f6e202c9bdfbdacfa0b4e251477b70f7b2f2bd04670de67fe16da6ab5b9.php:32
+msgid "You cannot see this page because you are not connected!"
+msgstr ""
+"Vous ne pouvez pas voir cette page car vous n'avez pas de connexion "
+"internet !"
+
+#: ../../../views_cache/b0/10/653e406b34545912c946b3a2da37bd71a036da2399c98444692d1c39f860.php:60
+msgid "The itinerary is loading, please wait..."
+msgstr "Chargement du parcours, veuillez patienter..."
+
+#: ../../../views_cache/b0/10/653e406b34545912c946b3a2da37bd71a036da2399c98444692d1c39f860.php:73
+msgid "Sorry, the itinerary could't be loaded!"
+msgstr "Désolé, le parcours n'a pas pu être chargé !"
+
+#: ../../../views_cache/f5/46/fe2560227110c0ecd6f337bf5623e5212628ba1d4bf37e6b66228ee37d91.php:70
+msgid "Start / Arrival:"
+msgstr "Départ / Arrivée :"
+
+#: ../../../views_cache/f5/46/fe2560227110c0ecd6f337bf5623e5212628ba1d4bf37e6b66228ee37d91.php:81
+msgid "Start:"
+msgstr "Départ :"
+
+#: ../../../views_cache/f5/46/fe2560227110c0ecd6f337bf5623e5212628ba1d4bf37e6b66228ee37d91.php:90
+msgid "Arrival:"
+msgstr "Arrivée :"
+
+#: ../../../views_cache/f5/46/fe2560227110c0ecd6f337bf5623e5212628ba1d4bf37e6b66228ee37d91.php:206
+msgid "Resume"
+msgstr "Reprendre"
+
+#: ../../../views_cache/f1/b6/54dc79a8d42c13c5978cbb25b3bebe9e0dd554a22a2d5b9d80b935fc50ef.php
+msgid "Your progression:"
+msgstr "Votre progression :"
+
+#: ../../../views_cache/52/e0/8395513ec1265482979c13b105dff10574cd046e3e600231ba32a71853ac.php
+msgid "Rallye Provins was created by:"
+msgstr "Rallye Provins est une création de :"
+
+#: ../../../views_cache/4b/b8/b54bc21d7bf330dea361fa735481b9e2dcbc053283cac5aa365ea2e7f05e.php
+msgid "Many thanks to our translators:"
+msgstr "Nous remercions nos traducteurs :"
+
+#: ../../../views_cache/4b/b8/b54bc21d7bf330dea361fa735481b9e2dcbc053283cac5aa365ea2e7f05e.php
+msgid "English translation"
+msgstr "traduction anglaise"
+
+#~ msgid "404 Page Not Found! Are you lost? Go back home!"
+#~ msgstr "404 Page Non Trouvée !"
+
+#~ msgid "OK"
+#~ msgstr "OK"
+
+#~ msgid "Show more"
+#~ msgstr "Montrer plus"
+
+#~ msgid "Show less"
+#~ msgstr "Montrer moins"
+
+#~ msgid "You are right!"
+#~ msgstr "Bien joué, vous avez trouvé la bonne réponse !"
+
+#~ msgid "It's wrong!"
+#~ msgstr "Dommage, vous ferez mieux la prochaine fois !"
+
+#~ msgid "The answers are:"
+#~ msgstr "Les réponses sont :"
+
+#~ msgid "The answer is: %answer%"
+#~ msgstr "La réponse est : %answer%"
+
+#~ msgid "Answer"
+#~ msgstr "Répondre"
+
+#~ msgid "(running)"
+#~ msgstr "(en cours)"
+
+#~ msgid "Are you sure you wish to take a shortcut to this step?"
+#~ msgstr "Êtes-vous sûr de vouloir aller à cette étape ?"
+
+#~ msgid "Duration"
+#~ msgstr "Durée"
+
+#~ msgid "Distance"
+#~ msgstr "Distance"
+
+#~ msgid "Start / arrival:"
+#~ msgstr "Départ / Arrivée :"

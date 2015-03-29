@@ -1,0 +1,57 @@
+CACHE MANIFEST
+
+CACHE:
+  /~matt/rallye-provins/css/main.min.css
+  /~matt/rallye-provins/js/script.min.js
+  /~matt/rallye-provins/js/jquery.min.js
+  /~matt/rallye-provins/about
+  /~matt/rallye-provins/img/imac.png
+  /~matt/rallye-provins/img/left_arrow.png
+  /~matt/rallye-provins/img/right_arrow.png
+  /~matt/rallye-provins/img/menu-about.png
+  /~matt/rallye-provins/img/menu-home.png
+  /~matt/rallye-provins/img/menu-itineraries.png
+  /~matt/rallye-provins/img/menu-map.png
+  /~matt/rallye-provins/img/menu-share.png
+  /~matt/rallye-provins/img/menu-steps.png
+  /~matt/rallye-provins/img/step-complete.png
+  /~matt/rallye-provins/img/step-current.png
+  /~matt/rallye-provins/img/step-locked.png
+  /~matt/rallye-provins/img/progress-start.png
+  /~matt/rallye-provins/img/progress-end.png
+  /~matt/rallye-provins/itineraries/court-adultes-chemin-remparts/steps
+  /~matt/rallye-provins/img/itineraries/footprints.png
+  /~matt/rallye-provins/img/itineraries/blason.png
+  /~matt/rallye-provins/img/itineraries/porte-saint-jean.jpg
+  /~matt/rallye-provins/img/itineraries/cloches-cesar.jpg
+  /~matt/rallye-provins/img/itineraries/clocheton.jpg
+  /~matt/rallye-provins/img/itineraries/grange-interieur.jpg
+  /~matt/rallye-provins/img/itineraries/niflette.jpg
+  /~matt/rallye-provins/img/itineraries/place-chatel.jpg
+  /~matt/rallye-provins/img/itineraries/rose.jpg
+  /~matt/rallye-provins/itineraries/court-adultes-chemin-remparts/00-depart
+  /~matt/rallye-provins/itineraries/court-adultes-chemin-remparts/01-porte-saint-jean
+  /~matt/rallye-provins/itineraries/court-adultes-chemin-remparts/02-provins-general
+  /~matt/rallye-provins/itineraries/court-adultes-chemin-remparts/03-grange-dimes
+  /~matt/rallye-provins/itineraries/court-adultes-chemin-remparts/04-grange-dimes
+  /~matt/rallye-provins/itineraries/court-adultes-chemin-remparts/05-place-chatel
+  /~matt/rallye-provins/itineraries/court-adultes-chemin-remparts/06-rue-ormerie
+  /~matt/rallye-provins/itineraries/court-adultes-chemin-remparts/07-tour-cesar
+  /~matt/rallye-provins/itineraries/court-adultes-chemin-remparts/08-tour-cesar
+  /~matt/rallye-provins/itineraries/court-adultes-chemin-remparts/09-collegiale-saint-quiriace
+  /~matt/rallye-provins/itineraries/court-adultes-chemin-remparts/10-musee-provins
+  /~matt/rallye-provins/itineraries/court-adultes-chemin-remparts/11-rue-st-thibault
+  /~matt/rallye-provins/itineraries/court-adultes-chemin-remparts/12-blason-provins
+  /~matt/rallye-provins/itineraries/court-adultes-chemin-remparts/13-caveau-du-saint-esprit
+  /~matt/rallye-provins/itineraries/court-adultes-chemin-remparts/14-trou-au-chat
+  /~matt/rallye-provins/itineraries/court-adultes-chemin-remparts/15-porte-de-jouy
+  /~matt/rallye-provins/itineraries/court-adultes-chemin-remparts/16-niflette
+  /~matt/rallye-provins/itineraries/court-adultes-chemin-remparts/17-allee-des-remparts
+  /~matt/rallye-provins/itineraries/court-adultes-chemin-remparts/18-conclusion
+
+FALLBACK:
+  / /~matt/rallye-provins/offline
+
+NETWORK:
+  *
+

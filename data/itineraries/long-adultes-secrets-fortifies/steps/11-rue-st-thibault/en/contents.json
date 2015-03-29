@@ -1,0 +1,46 @@
+{
+    "name": "The “Rue Saint Thibault”",
+    
+    "contents": [
+        {
+            "contents": "Walk along the “Rue du Palais” until you reach the Chatel Square. Turn right into the “Rue Saint Thibault”.",
+            "type": "paragraph"
+        },
+
+        {
+            "contents": "180 metres",
+            "type": "paragraph",
+            "icon": "footprints.png"
+        },
+
+        {
+            "contents": "The Saint of Provins",
+            "type": "title"
+        },
+        
+        {
+            "contents": "The name of a famous character keeps popping up in Provins.",
+            "type": "paragraph"
+        }
+    ],
+
+    "question": {
+        "contents": "Who brought back the rose from the crusades?",
+        
+        "choices": [
+            "Probus",
+            "Arnould",
+            "Louis XV",
+            "Saint Thibault"
+        ],
+        
+        "answer": 3,
+
+        "explanations": [
+            {
+                "contents": "Provins is the capital of the rose. It is said to have been brought back from the crusades by Thibault de Champagne.",
+                "type": "paragraph"
+            }
+        ]
+    }
+}

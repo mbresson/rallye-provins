@@ -1,0 +1,41 @@
+{
+    "name": "The Caesar Tower",
+    
+    "contents": [
+        {
+            "contents": "Ding-dong",
+            "type": "title"
+        },
+        
+        {
+            "alt": "Photo of the bells of the Caesar Tower",
+            "type": "image",
+            "src": "cloches-cesar.jpg"
+        },
+
+        {
+            "contents": "This church was completed several centuries ago but was altered repeatedly: the Saint-Quiriace spire was destroyed by thunderbolt in 1660 and the roof was added in the 17th century. The tower is connected to the underground galleries of the town.",
+            "type": "paragraph"
+        }
+    ],
+
+    "question": {
+        "contents": "Why were bells installed at the top of the Caesar tower?",
+        
+        "choices": [
+            "To alert the population",
+            "To decorate the tower",
+            "To give the time",
+            "To find them a place"
+        ],
+        
+        "answer": 3,
+
+        "explanations": [
+            {
+                "contents": "As the Saint-Quiriace church was never completed, the bells were kept in the Caesar Tower.",
+                "type": "paragraph"
+            }
+        ]
+    }
+}

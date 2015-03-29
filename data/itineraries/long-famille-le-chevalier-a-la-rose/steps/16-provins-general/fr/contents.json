@@ -1,0 +1,47 @@
+{
+    "name": "À propos de Provins",
+    
+    "contents": [
+        {
+            "contents": "Poursuivre : Prenez la rue à gauche de la mairie, rue de la Cordonnerie.",
+            "type": "paragraph"
+        },
+
+        {
+            "contents": "120 mètres",
+            "type": "paragraph",
+            "icon": "footprints.png"
+        },
+
+        {
+            "contents": "Provins la célèbre",
+            "type": "title"
+        },
+        
+        {
+            "contents": "Autrefois Provins était aussi connue que Paris ou Rouen.",
+            "type": "paragraph"
+        }     
+    ],
+
+    "question": {
+        "contents": "À ton avis, pourquoi la ville de Provins est si connue ?",
+        
+        "choices": [
+            "Ville médiévale la mieux conservée de France",
+            "Ancienne ville où il y avait des marchés",
+            "La rose",
+            "Ancienne ville créée par les romains"
+        ],
+        
+        "answer": [0, 1, 2] ,
+
+        "explanations" : [
+            {
+                "type": "paragraph",
+                "contents": "Provins est une ville qui accueillait les chevaliers et les marchands. Comme vous pouvez le voir, elle est encore en bon état."
+            }
+
+        ]
+    }
+}

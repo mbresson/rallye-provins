@@ -1,0 +1,47 @@
+{
+    "name": "Les Allées d’Aligre",
+    
+    "contents": [
+        {
+            "contents": "Poursuivre : Revenez sur vos pas en prenant à gauche sur le Boulevard d’Aligre.",
+            "type": "paragraph"
+        },
+
+        {
+            "contents": "190 mètres",
+            "type": "paragraph",
+            "icon": "footprints.png"
+        },
+
+        {
+            "contents": "Douce balade",
+            "type": "title"
+        },
+        
+        {
+            "contents": "Avant, il y avait des remparts à la place de ce boulevard. Vous voyez la rivière qui borde le boulevard ? Elle s’appelle Fausse-Rivière.",
+            "type": "paragraph"
+        }     
+    ],
+
+    "question": {
+        "contents": "Sais-tu pourquoi elle s’appelle Fausse-Rivière ?",
+        
+        "choices": [
+            "Ce n'est pas de la vraie eau",
+            "C'est une montagne",
+            "Ce n'est pas une rivière",
+            "Elle a été creusée par les Hommes"
+        ],
+        
+        "answer": 3,
+
+        "explanations" : [
+            {
+                "contents": "Cette rivière a été appelée Fausse-Rivière parce qu’elle a été creusée par les hommes afin de protéger la ville des inondations.",
+                "type": "paragraph"
+            }
+        ]
+    }
+
+}

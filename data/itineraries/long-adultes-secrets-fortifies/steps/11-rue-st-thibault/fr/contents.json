@@ -1,0 +1,46 @@
+{
+    "name": "Rue Saint Thibault",
+    
+    "contents": [
+        {
+            "contents": "Poursuivre : Continuez tout droit sur la rue du Palais jusqu’à la place du Châtel. Prendre à droite sur la rue Saint Thibault.",
+            "type": "paragraph"
+        },
+
+        {
+            "contents": "180 mètres",
+            "type": "paragraph",
+            "icon": "footprints.png"
+        },
+
+        {
+            "contents": "Le Saint de Provins",
+            "type": "title"
+        },
+        
+        {
+            "contents": "Partout dans Provins, il est question d’un célèbre personnage dont le nom revient souvent.",
+            "type": "paragraph"
+        }
+    ],
+
+    "question": {
+        "contents": "Quel personnage célèbre a rapporté la rose de Provins des Croisades ?",
+        
+        "choices": [
+            "Probus",
+            "Arnould",
+            "Louis XV",
+            "Saint Thibault"
+        ],
+        
+        "answer": 3,
+
+        "explanations": [
+            {
+                "contents": "Provins est la capitale de la rose. Celle-ci aurait été rapportée des Croisades par Thibault de Champagne.",
+                "type": "paragraph"
+            }
+        ]
+    }
+}

@@ -1,0 +1,46 @@
+{
+    "name": "About Provins",
+    
+    "contents": [
+        {
+            "contents": "Walk down the rue Saint Jean.",
+            "type": "paragraph"
+        },
+
+        {
+            "contents": "120 metres",
+            "type": "paragraph",
+            "icon": "footprints.png"
+        },
+
+        {
+            "contents": "Provins, a famous city",
+            "type": "title"
+        },
+        
+        {
+            "contents": "Provins used to be the third most important French city (after Paris and Rouen). It was well-known for its fairs and markets. Today, 58 of its monuments are listed as “historical”.",
+            "type": "paragraph"
+        }
+    ],
+
+    "question": {
+        "contents": "What is Provins famous for?",
+        
+        "choices": [
+            "Best preserved medieval town in France",
+            "Because of the rose",
+            "Because it is a former Roman town",
+            "Because it is an ancient market town"
+        ],
+        
+        "answer": [0, 1, 3],
+
+        "explanations": [
+            {
+                "contents": "It is a former fair town, protected from war damage. It is also the best preserved medieval town in France. Roses are its best-selling item.",
+                "type": "paragraph"
+            }
+        ]
+    }
+}

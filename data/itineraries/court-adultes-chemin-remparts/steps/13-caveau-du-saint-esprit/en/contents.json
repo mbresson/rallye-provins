@@ -1,0 +1,46 @@
+{
+    "name": "The vault of the Holy Spirit",
+    
+    "contents": [
+        {
+            "contents": "Keep walking along the “Rue de Jouy” and you will come to the Caveau du Saint-Esprit on your right.",
+            "type": "paragraph"
+        },
+
+        {
+            "contents": "190 metres",
+            "type": "paragraph",
+            "icon": "footprints.png"
+        },
+
+        {
+            "contents": "The lower room",
+            "type": "title"
+        },
+        
+        {
+            "contents": "A large, vaulted room is all that remains of a former hospital. Today, it is used for private events and cannot be visited.",
+            "type": "paragraph"
+        }
+    ],
+
+    "question": {
+        "contents": "Who could come to be taken care of in that hospital?",
+        
+        "choices": [
+            "Rich people",
+            "Poor people",
+            "Old people",
+            "Middle class people"
+        ],
+        
+        "answer": [1, 2],
+
+        "explanations": [
+            {
+                "contents": "That hospital welcomed poor and old people as well as children.",
+                "type": "paragraph"
+            }
+        ]
+    }
+}

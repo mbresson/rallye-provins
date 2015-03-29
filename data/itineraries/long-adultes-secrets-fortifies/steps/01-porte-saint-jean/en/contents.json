@@ -1,0 +1,40 @@
+{
+    "name": "Saint-Jean Door",
+    
+    "contents": [
+        {
+            "contents": "A well-guarded door",
+            "type": "title"
+        },
+        
+        {
+            "contents": "The Saint Jean door was erected in the 13th century by Thibault, count of Champagne to control and safeguard the entry to the town. It is 25 metres high.",
+            "type": "paragraph"
+        },
+
+        {
+            "contents": "Look at the stones attentively and answer the question:",
+            "type": "paragraph"
+        }
+    ],
+
+    "question": {
+        "contents": "What were the bumps on the stones used for?",
+        
+        "choices": [
+            "To stop the canon balls",
+            "To stop the enemy from climbing",
+            "To decorate the door",
+            "To help preserve it"
+        ],
+        
+        "answer": 2,
+
+        "explanations": [
+            {
+                "contents": "Actually, the stones were just an embellishment.",
+                "type": "paragraph"
+            }
+        ]
+    }
+}

@@ -1,0 +1,53 @@
+{
+    "name": "L'Église Sainte-Croix",
+    
+    "contents": [
+        {
+            "contents": "Poursuivre : Revenir sur la place Saint-Ayoul. Revenez sur vos pas rue de la Cordonnerie. Prenez à droite rue Alain Peyrefitte puis allez à gauche rue du petit Cimetière Sainte-Croix où vous apercevrez l’Église Sainte-Croix.",
+            "type": "paragraph"
+        },
+
+        {
+            "contents": "400 mètres",
+            "type": "paragraph",
+            "icon": "footprints.png"
+        },
+
+        {
+            "contents": "La Croix du Christ",
+            "type": "title"
+        },
+        
+        {
+            "contents": "C’est Thibaud IV qui a donné son nom à l’Église Sainte-Croix en rapportant un morceau de la croix du Christ d‘un de ses voyages.",
+            "type": "paragraph"
+        },
+
+        {
+            "contents": "Regarde le portail de l’Église.",
+            "type": "paragraph"
+        }   
+    ],
+
+    "question": {
+        "contents": "Ne vois-tu pas quelque chose que tu peux souvent trouver à la plage ?",
+        
+        "choices": [
+            "Des vagues",
+            "De la neige",
+            "Des coquillages",
+            "Des crabes"
+        ],
+        
+        "answer": 2,
+
+        "explanations" : [
+            {
+                "type": "paragraph",
+                "contents": "Le portail est orné de coquilles Saint-Jacques mais aussi de monstres aquatiques qui symbolisent la présence de l’eau."
+            }
+
+        ]
+    }
+
+}

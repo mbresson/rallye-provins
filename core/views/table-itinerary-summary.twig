@@ -1,0 +1,41 @@
+
+<table class='summary'>
+  <tr>
+    {% set hours = itinerary.duration // 60 %}
+    {% set minutes = itinerary.duration - hours*60 %}
+
+    <td class='duration'>
+      <img alt='{% trans('Duration:') %} ' src='{{ GLOB.Router.root }}img/itinerary-duration.png' class='icon' />
+
+      <p>
+        {% if minutes == 0 %}
+          {% trans %}1 hour{% plural hours %}{{ hours }} hours{% endtrans %}
+        {% elseif hours == 0 %}
+          {% trans %}1 minute{% plural minutes %}{{ minutes }} minutes{% endtrans %}
+        {% else %}
+          {% trans %}{{ hours }}h{{ minutes }}{% endtrans %}
+        {% endif %}
+      </p>
+    </td><!-- .duration -->
+
+    <td class='distance'>
+      <img alt='{% trans('Distance:') %} ' src='{{ GLOB.Router.root }}img/itinerary-distance.png' class='icon' />
+
+      <p>
+        {% set distance = itinerary.distance %}
+        {% trans %}{{ distance }} km{% endtrans %}
+      </p>
+    </td><!-- .distance -->
+
+    <td class='public'>
+      <img alt='{% trans('Public:') %} ' src='{{ GLOB.Router.root }}img/itinerary-public.png' class='icon' />
+
+      <p>
+        {{ itinerary.target }}
+      </p>
+    </td><!-- .public -->
+
+  </tr>
+</table><!-- .summary -->
+
+

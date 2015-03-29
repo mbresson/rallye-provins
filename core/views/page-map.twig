@@ -1,0 +1,20 @@
+{% extends 'skel/html.twig' %}
+
+{% block section %}
+<div class='map-wrapper'>
+  {% if GLOB.data.itinerary is defined %}
+
+    {% set baseStepUrl = siteUrl('itineraries/' ~ GLOB.data.itinerary.id ~ '/') %}
+    <div class='map' data-steps='{{ GLOB.data.steps|json_encode() }}' data-itinerary='{{ GLOB.data.itinerary.id }}' data-basestepurl='{{ baseStepUrl }}'>
+    </div>
+  {% else %}
+    <div class='map generic'></div>
+  {% endif %}
+</div><!-- .map-wrapper -->
+{% endblock section %}
+
+{% block scripts %}
+<script src="https://maps.google.com/maps/api/js?sensor=true" type="text/javascript"></script>
+{{ parent() }}
+{% endblock scripts %}
+

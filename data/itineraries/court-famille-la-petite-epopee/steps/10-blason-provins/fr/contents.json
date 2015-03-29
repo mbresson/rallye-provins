@@ -1,0 +1,48 @@
+{
+    "name": "Le Blason de Provins",
+    
+    "contents": [
+        {
+            "contents": "Poursuivre : Retraversez la place du Châtel pour retourner dans la rue Couverte et poursuivre tout droit sur la rue de Jouy.",
+            "type": "paragraph"
+        },
+
+        {
+            "contents": "170 mètres",
+            "type": "paragraph",
+            "icon": "footprints.png"
+        },
+
+        {
+            "contents": "L'emblème",
+            "type": "title"
+        },
+        
+        {
+            "alt": "Photo du Blason de Provins",
+            "type": "image",
+            "src": "blason.png"
+        }
+    ],
+
+    "question": {
+        "contents": "À quel monument, celui sur le blason vous fait-il penser ?",
+        
+        "choices": [
+            "La Tour César",
+            "La Collégiale Saint-Quiriace",
+            "La Grange aux dîmes",
+            "La Porte Saint-Jean"
+        ],
+        
+        "answer": 0 ,
+
+        "explanations" : [
+            {
+                "type": "paragraph",
+                "contents": "C’est la Tour César qui se trouve sur le blason de Provins car c’est le monument le plus imposant et visible de la ville."
+            }
+
+        ]
+    }
+}

@@ -1,0 +1,35 @@
+{
+    "name": "Les Souterrains",
+    
+    "contents": [
+        {
+            "contents": "Le dédale",
+            "type": "title"
+        },
+        
+        {
+            "contents": "Constitués d’un ensemble de galeries, aujourd’hui site touristique pour admirer les gravures qui figurent sur les murs, les souterrains ont servi de refuge, d’entrepôt ou encore de cave. Ils partent de la salle Basse et le réseau de galeries s’étend sur l’ensemble de la ville de Provins.",
+            "type": "paragraph"
+        }
+    ],
+
+    "question": {
+        "contents": "À l’origine, quel était le but de la construction des souterrains ?",
+        
+        "choices": [
+            "Relier les bâtiments entre eux",
+            "Faciliter la circulation",
+            "Organiser des réunions secrètes",
+            "L'extraction d'un matériau"
+        ],
+        
+        "answer": 3,
+
+        "explanations": [
+            {
+                "contents": "Les souterrains étaient à l’origine (au Moyen-âge) une carrière d’où était extrait un matériau (la terre à foulon) servant à l’industrie drapière de Provins. Par la suite, ils ont également servi à relier les différents bâtiments entre eux et de base pour des réunions secrètes.",
+                "type": "paragraph"
+            }
+        ]
+    }
+}

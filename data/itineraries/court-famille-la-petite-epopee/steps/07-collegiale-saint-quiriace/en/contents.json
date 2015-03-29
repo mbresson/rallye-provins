@@ -1,0 +1,47 @@
+{
+    "name": "The Saint Quiriace church",
+    
+    "contents": [
+        {
+            "contents": "Continue along the “Rue de la Pie” towards the Saint Quiriace Square. Right in front of you stands the Saint Quiriace Collegiate church.",
+            "type": "paragraph"
+        },
+
+        {
+            "contents": "61 metres",
+            "type": "paragraph",
+            "icon": "footprints.png"
+        },
+
+        {
+            "contents": "The forsaken Collegiate church",
+            "type": "title"
+        },
+        
+        {
+            "contents": "In the course of the 12th century, the Collegiate church became too small to welcome all the priests and parishioners so Count Henry decided to enlarge it. Unfortunately,  it was never finished.",
+            "type": "paragraph"
+        }     
+    ],
+
+    "question": {
+        "contents": "Why?",
+        
+        "choices": [
+            "The count died",
+            "There were not enough stones",
+            "The building was burnt down",
+            "A flood destroyed it"
+        ],
+        
+        "answer": 0 ,
+
+        "explanations" : [
+            {
+                "type": "paragraph",
+                "contents": "The count died before the completion of the work and nobody was willing to continue."
+            }
+
+        ]
+    }
+}

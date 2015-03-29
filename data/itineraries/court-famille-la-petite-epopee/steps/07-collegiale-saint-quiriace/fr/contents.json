@@ -1,0 +1,47 @@
+{
+    "name": "La Collégiale Saint-Quiriace",
+    
+    "contents": [
+        {
+            "contents": "Poursuivre : Continuez rue de la Pie jusqu’à la place Saint-Quiriace. Devant vous doit se trouver la Collégiale Saint-Quiriace.",
+            "type": "paragraph"
+        },
+
+        {
+            "contents": "61 mètres",
+            "type": "paragraph",
+            "icon": "footprints.png"
+        },
+
+        {
+            "contents": "La Collégiale abandonnée",
+            "type": "title"
+        },
+        
+        {
+            "contents": "Au 12e siècle, il n’y a plus de place pour accueillir tous les prêtres et les fidèles, le comte Henri a donc décidé d’agrandir la Collégiale. Mais elle n’a jamais été finie.",
+            "type": "paragraph"
+        }     
+    ],
+
+    "question": {
+        "contents": "Pourquoi la Collégiale n’a pas pu être finie ?",
+        
+        "choices": [
+            "Le comte est décédé",
+            "Manque de pierres",
+            "La Collégiale a brûlé",
+            "La Collégiale a été inondée"
+        ],
+        
+        "answer": 0 ,
+
+        "explanations" : [
+            {
+                "type": "paragraph",
+                "contents": "Le comte Henri est mort avant de pouvoir finir la Collégiale. Personne n’a pu la finir après."
+            }
+
+        ]
+    }
+}

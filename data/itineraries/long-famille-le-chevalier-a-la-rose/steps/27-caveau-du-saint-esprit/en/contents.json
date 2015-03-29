@@ -1,0 +1,48 @@
+{
+    "name": "The vault of the Holy Spirit",
+    
+    "contents": [
+        {
+            "contents": "Go back to the Jouy Door and turn your back to it. Walk straight down the street and you will come to the Caveau de Saint-Esprit.",
+            "type": "paragraph"
+        },
+
+        {
+            "contents": "130 metres",
+            "type": "paragraph",
+            "icon": "footprints.png"
+        },
+
+        {
+            "contents": "The lower room",
+            "type": "title"
+        },
+
+        {
+            "contents": "It was a hospital in the past. Now you can organise parties in it.",
+            "type": "paragraph"
+        }     
+    ],
+
+    "question": {
+        "contents": "Who came to that hospital?",
+        
+        "choices": [
+            "Poor people",
+            "Rich people",
+            "Old people",
+            "Children"
+        ],
+        
+        "answer": [0, 2, 3] ,
+
+        "explanations" : [
+
+            {
+                "contents": "A board indicates that this former hospital attended to the needs of poor and old people as well as children.",
+                "type": "paragraph"
+            }  
+
+        ]
+    }
+}

@@ -1,0 +1,97 @@
+{
+  "root": "/~matt/rallye-provins/",
+
+  "languages": {
+    "fr": {
+      "name": "Français",
+      "html": "fr",
+      "code": "fr_FR.UTF-8"
+    },
+    
+    "en": {
+      "name": "English",
+      "html": "en",
+      "code": "en_US.UTF-8"
+    }
+  },
+
+  "routes": [
+    {
+      "path": "/",
+      "type": "GET",
+      "controller": "home"
+    },
+
+    {
+      "path": "404",
+      "type": "GET",
+      "controller": "notFound"
+    },
+
+    {
+      "path": "/start",
+      "type": "GET",
+      "controller": "start"
+    },
+
+    {
+      "path": "/notsupported",
+      "type": "GET",
+      "controller": "notSupported"
+    },
+
+    {
+      "path": "/about",
+      "type": "GET",
+      "controller": "about"
+    },
+
+    {
+      "path": "/offline",
+      "type": "GET",
+      "controller": "offline"
+    },
+
+    {
+      "path": "/share",
+      "type": "GET",
+      "controller": "share"
+    },
+
+    {
+      "path": "/map",
+      "type": "GET",
+      "controller": "map"
+    },
+
+    {
+      "path": "/itineraries",
+      "type": "GET",
+      "controller": "itineraries"
+    },
+
+    {
+      "path": "/itineraries/:itinerary",
+      "type": "GET",
+      "controller": "itinerarySummary"
+    },
+
+    {
+      "path": "/download/:lang",
+      "type": "GET",
+      "controller": "itineraryDownload"
+    },
+
+    {
+      "path": "/itineraries/:itinerary/steps",
+      "type": "GET",
+      "controller": "itinerarySteps"
+    },
+
+    {
+      "path": "/itineraries/:itinerary/:step",
+      "type": "GET",
+      "controller": "itineraryStep"
+    }
+  ]
+}

@@ -1,0 +1,47 @@
+{
+    "name": "The blazon of Provins",
+    
+    "contents": [
+        {
+            "contents": "Walk down the “Rue Saint Thibault”.",
+            "type": "paragraph"
+        },
+
+        {
+            "contents": "150 metres",
+            "type": "paragraph",
+            "icon": "footprints.png"
+        },
+
+        {
+            "contents": "The emblem",
+            "type": "title"
+        },
+
+        {
+            "alt": "Photo of the blazon of Provins",
+            "type": "image",
+            "src": "blason.png"
+        }
+    ],
+
+    "question": {
+        "contents": "Which monument is represented on the blazon of the town?",
+        
+        "choices": [
+            "The Saint-Quiriace collegiate church",
+            "The Caesar Tower",
+            "The Tithe Barn",
+            "The Saint Jean Door"
+        ],
+        
+        "answer": 1,
+
+        "explanations": [
+            {
+                "contents": "The Caesar Tower is represented. The lily flower which can be seen at the top means that it became part of the Royal Domain in 1284.",
+                "type": "paragraph"
+            }
+        ]
+    }
+}

@@ -1,0 +1,22 @@
+{% extends 'skel/html.twig' %}
+
+{% block html_tag %}manifest="{{ GLOB.data.cache.path }}"{% endblock html_tag %}
+
+{% block section %}
+
+  <div class='downloader'
+    data-itinerary='{{ GLOB.data.itinerary.id }}'
+    data-numsteps='{{ GLOB.data.itinerary.steps|length }}'
+    data-stepurl='{{ siteUrl('itineraries/' ~ GLOB.data.itinerary.id ~ '/') }}'
+    data-steps='{{ GLOB.data.itinerary.steps|json_encode() }}'>
+  <h2>{% trans('The itinerary is loading, please wait...') %}</h2>
+
+  <div id='download-meter' class='meter' data-numFiles='{{ GLOB.data.cache.numFiles }}' data-filesDownloaded='0'>
+    <span style='width: 0%'></span>
+  </div>
+  </div><!-- .downloader -->
+
+  <h2 class='hidden failure'>{% trans('Sorry, the itinerary could\'t be loaded!') %}</h2>
+
+{% endblock section %}
+

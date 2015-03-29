@@ -1,0 +1,32 @@
+{
+    "name": "Abbaye des Cordelières",
+    
+    "contents": [
+        {
+            "contents": "Poursuivre : Poursuivez tout droit sur la rue Saint-Thibault. Sur votre gauche, vous trouverez un point de vue de l’Abbaye des Cordelières.",
+            "type": "paragraph"
+        },
+
+        {
+            "contents": "250 mètres",
+            "type": "paragraph",
+            "icon": "footprints.png"
+        },
+
+        {
+            "contents": "La belle éloignée",
+            "type": "title"
+        },
+
+        {
+            "alt": "Photo de l'Abbaye des Cordelières",
+            "type": "image",
+            "src": "abbaye-cordelieres.jpg"
+        },
+        
+        {
+            "contents": "L’Abbaye des Cordelières est située hors des remparts de la ville Haute. Elle a été fondée par Thibaud IV de Champagne au XIIIe siècle face à son palais. Elle devient en 1749 un hôpital général sur ordre de Louis XV. Aujourd’hui, elle abrite les archives de la Direction du Patrimoine et des Monuments Nationaux ainsi qu’une école de Tourisme.",
+            "type": "paragraph"
+        }
+    ]
+}

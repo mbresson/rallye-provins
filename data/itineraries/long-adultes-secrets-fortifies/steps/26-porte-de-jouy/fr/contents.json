@@ -1,0 +1,52 @@
+{
+    "name": "La Porte de Jouy",
+    
+    "contents": [
+        {
+            "contents": "Poursuivre : Continuez votre chemin le long des remparts jusqu’à rejoindre la Porte de Jouy. Vous pouvez en profiter pour monter sur les remparts.",
+            "type": "paragraph"
+        },
+
+        {
+            "contents": "110 mètres",
+            "type": "paragraph",
+            "icon": "footprints.png"
+        },
+
+        {
+            "contents": "À la croisée des aigles",
+            "type": "title"
+        },
+        
+        {
+            "contents": "Cette porte a été construite au XIIIe siècle et rénovée récemment. Elle était surmontée d’un clocheton. D’ici, on accède au site du spectacle Les Aigles des Remparts.",
+            "type": "paragraph"
+        }
+    ],
+
+    "question": {
+        "contents": "À votre avis, qu’est-ce qu’un clocheton ?",
+        
+        "choices": [
+            "Un petit donjon avec cloche",
+            "Une petite cloche",
+            "Un petit crochet pour ouvrir les portes",
+            "Une poignée"
+        ],
+        
+        "answer": 0,
+
+        "explanations": [
+            {
+                "alt": "Photo du clocheton",
+                "type": "image",
+                "src": "clocheton.jpg"
+            },
+            
+            {
+                "contents": "Un clocheton est un petit donjon avec cloche qui permettait de surveiller et de prévenir du danger.",
+                "type": "paragraph"
+            }
+        ]
+    }
+}

@@ -1,0 +1,10 @@
+{
+    "name": "Along the Ramparts",
+    
+    "target": "Adults",
+    
+    "pitch": "The secrets of the Upper Town of Provins are waiting for you!",
+    
+    "start": "Saint-Jean Door",
+    "arrival": "Saint-Jean Door"
+}

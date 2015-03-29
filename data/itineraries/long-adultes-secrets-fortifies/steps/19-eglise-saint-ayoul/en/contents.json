@@ -1,0 +1,41 @@
+{
+    "name": "The Saint-Ayoul church",
+    
+    "contents": [
+        {
+            "contents": "The two “churches”",
+            "type": "title"
+        },
+
+        {
+            "alt": "Inside the Saint-Ayoul Church",
+            "type": "image",
+            "src": "saint-ayoul.jpg"
+        },
+        
+        {
+            "contents": "During the French Revolution, the church was divided into two parts by a wall. In the part that can be visited, two different architectural styles and the remains of old paintings are visible.",
+            "type": "paragraph"
+        }
+    ],
+
+    "question": {
+        "contents": "Why are there two architectural styles?",
+        
+        "choices": [
+            "Because of a fire",
+            "Because the church sank due to the unstable ground",
+            "Because of a pillage",
+            "Because of wartime destruction"
+        ],
+        
+        "answer": 1,
+
+        "explanations": [
+            {
+                "contents": "The church was built on marshland, which caused the collapse of the church. That is why lots of changes and additions were made, which resulted in the different styles that can be observed and in the partition of the church.",
+                "type": "paragraph"
+            }
+        ]
+    }
+}

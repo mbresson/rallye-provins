@@ -1,0 +1,33 @@
+{
+    "name": "The Chatel Square",
+    
+    "contents": [
+        {
+            "contents": "Keep on walking until you reach the “Rue Couverte” on your right.",
+            "type": "paragraph"
+        },
+
+        {
+            "contents": "110 metres",
+            "type": "paragraph",
+            "icon": "footprints.png"
+        },
+
+        {
+            "alt": "Photo of the Chatel Square",
+            "type": "image",
+            "src": "place-chatel.jpg"
+        }, 
+        
+        {
+            "contents": "You are now in the centre of the upper town. Tradesmen used to meet and trade at the foot of the Croix des Changes.",
+            "type": "paragraph"
+        },
+
+        {
+            "contents":"In those days, they were not taller than half the base of the cross. Stand next to it and see how tall you are!",
+            "type":"paragraph"
+        }
+    ]
+
+}

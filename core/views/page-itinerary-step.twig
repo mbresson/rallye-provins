@@ -1,0 +1,110 @@
+
+{% extends 'skel/html.twig' %}
+
+{#
+ # Structure of the page:
+ #
+ # - div.contents (the content of the step)
+ # - div.question (a question form, if the step contains a question)
+ # - div.controls (buttons to move one step backward/forward)
+ #}
+
+{% block section_tag %}{{ parent() }} data-itinerary='{{ GLOB.data.itinerary.id }}' data-stepindex='{{ GLOB.data.step.position }}' {% endblock section_tag %}
+
+{% block section %}
+
+
+<div class='contents'>
+{% include 'skel/array-contents.twig' with {'contents': GLOB.data.step.contents.contents } %}
+</div><!-- .contents -->
+
+
+{% if GLOB.data.step.contents.question is defined %}
+
+  {% set question = GLOB.data.step.contents.question %}
+
+  <div class='question'>
+    <h3>{{ question.contents }}</h3>
+
+    <form method='get' action='#'>
+      <fieldset>
+        {% if question.answer is iterable %}
+          <legend class='small'><em>{% trans('Multiple choice question') %}</em></legend>
+
+          {% for choiceIndex, choice in question.choices %}
+            <div class='choice {% if choiceIndex in question.answer %}right{% else %}wrong{% endif %}'>
+              <label for='question-choice-{{ choiceIndex }}'>
+                <input type='checkbox' name='choice' value='{{ choiceIndex }}' id='question-choice-{{ choiceIndex }}' />
+                {{ choice }}
+              </label>
+            </div>
+          {% endfor %}
+
+        {% else %}{# one-choice question #}
+
+          {% for choiceIndex, choice in question.choices %}
+            <div class='choice {% if question.answer == choiceIndex %}right{% else %}wrong{% endif %}'>
+              <label for='question-choice-{{ choiceIndex }}'>
+                <input type='radio' name='choice' value='{{ choiceIndex }}' id='question-choice-{{ choiceIndex }}' />
+                {{ choice }}
+              </label>
+            </div>
+          {% endfor %}
+
+        {% endif %}
+
+        <input type='hidden' value='{{ question.answer|json_encode() }}' name='answer' />
+
+      </fieldset>
+
+      <input type="submit" class='button submit' value='{% trans('Check') %}' />
+
+      {% if question.explanations is defined %}
+        <div class='explanations'>
+          {% include 'skel/array-contents.twig' with {'contents': question.explanations } %}
+        </div>
+      {% endif %}
+
+    </form>
+  </div><!-- .question -->
+{% endif %}
+
+
+{# if this is the last step, add a button to go back home #}
+{% if (GLOB.data.step.position + 1) == GLOB.data.itinerary.contents.steps|length %}
+<div class='center'>
+  <p>
+    <a class='button' id='link-home' href='{{ siteUrl('/itineraries') }}' title=''>{% trans('Go back to the home screen') %}</a>
+  </p>
+</div>
+{% endif %}
+
+
+<div class='controls'>
+
+  {# if this is not the first step, add a button to go back to the previous step #}
+  {% if GLOB.data.step.position > 0 %}
+
+    {% set stepBackUrl = siteUrl('/itineraries/' ~ GLOB.data.itinerary.id ~ '/' ~ GLOB.data.itinerary.contents.steps[GLOB.data.step.position - 1]) %}
+
+    <a href='{{ stepBackUrl }}' title='{% trans('Previous step') %}' class='step-back'>
+      <img src='{{ GLOB.Router.root }}img/left_arrow.png' alt='{% trans('Previous step') %}' />
+    </a>
+
+  {% endif %}
+
+  {# if this is not the last step, add a button to proceed to the next step #}
+  {% if GLOB.data.step.position < (GLOB.data.itinerary.contents.steps|length - 1) %}
+
+    {% set stepNextUrl = siteUrl('/itineraries/' ~ GLOB.data.itinerary.id ~ '/' ~ GLOB.data.itinerary.contents.steps[GLOB.data.step.position + 1]) %}
+
+    <a href='{{ stepNextUrl }}' title='{% trans('Next step') %}' class='step-next'>
+      <img src='{{ GLOB.Router.root }}img/right_arrow.png' alt='{% trans('Next step') %}' />
+    </a>
+
+  {% endif %}
+</div><!-- .controls -->
+
+
+{% endblock section %}
+

@@ -1,0 +1,37 @@
+{
+    "name": "Les Souterrains",
+    
+    "contents": [
+
+        {
+            "contents": "Le dédale",
+            "type": "title"
+        },
+        
+        {
+            "contents": "Sous l’Hôtel-Dieu, il y a plein de souterrains avec des murs dessinés.",
+            "type": "paragraph"
+        }     
+    ],
+
+    "question": {
+        "contents": "À ton avis, quel était le but premier de la construction de ces souterrains ?",
+        
+        "choices": [
+            "Réunions de clubs secrets",
+            "Récupérer un matériau important",
+            "Aller dans les autres bâtiments",
+            "Se protéger en cas de danger"
+        ],
+        
+        "answer": 1 ,
+
+        "explanations" : [
+            {
+                "type": "paragraph",
+                "contents": "Au Moyen-âge, on récupérait la terre à foulon. C’est un matériau utile pour fabriquer des vêtements. Par la suite, ils ont également servi à relier les différents bâtiments entre eux et de repère pour des réunions secrètes."
+            }
+
+        ]
+    }
+}

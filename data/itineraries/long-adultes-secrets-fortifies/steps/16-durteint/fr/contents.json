@@ -1,0 +1,46 @@
+{
+    "name": "Le Durteint",
+    
+    "contents": [
+        {
+            "contents": "Poursuivre : Sur votre gauche, arrêtez-vous quelques instants devant le Durteint.",
+            "type": "paragraph"
+        },
+
+        {
+            "contents": "100 mètres",
+            "type": "paragraph",
+            "icon": "footprints.png"
+        },
+
+        {
+            "contents": "La rivière capricieuse",
+            "type": "title"
+        },
+        
+        {
+            "contents": "Au Moyen-âge, on utilisait l’eau de la rivière à diverses fins : pour colorer la laine (la dureté de l’eau donnait une couleur bleu très foncé appelé le bleu “ners”), pour laver le linge grâce aux nombreux lavoirs qui bordent la rivière et pour différents métiers comme teinturiers, tanneurs ou encore bouchers.",
+            "type": "paragraph"
+        }
+    ],
+
+    "question": {
+        "contents": "Quelles modifications la présence de cette rivière a-t-elle engendrées ?",
+        
+        "choices": [
+            "L'obligation de surélever le sol à cause des risques d'inondation",
+            "Construire des remparts",
+            "Planter des ormes",
+            "Installation de barrages"
+        ],
+        
+        "answer": [0, 2],
+
+        "explanations": [
+            {
+                "contents": "À cause des risques d’inondation, le sol de la ville a dû être surélevé. De plus, afin de consolider le remblai (terre de la berge), il a fallu planter des ormes.",
+                "type": "paragraph"
+            }
+        ]
+    }
+}

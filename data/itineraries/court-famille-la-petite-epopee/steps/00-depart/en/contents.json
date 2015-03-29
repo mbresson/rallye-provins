@@ -1,0 +1,21 @@
+{
+    "name": "Let's go!",
+    
+    "contents": [
+        {
+            "contents": "Saint-Jean Door",
+            "type": "title"
+        },
+
+        {
+            "alt": "A photo of Saint-Jean Door",
+            "type": "image",
+            "src": "porte-saint-jean.jpg"
+        },
+        
+        {
+            "contents": "Your journey starts at Saint-Jean Door.",
+            "type": "paragraph"
+        }
+    ]
+}

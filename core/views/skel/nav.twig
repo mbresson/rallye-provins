@@ -1,0 +1,69 @@
+
+<nav>
+
+  <ul>
+    <li>
+      <a href='{{ siteUrl('/start') }}' title='' id='nav-home'>
+        <span class='center'>
+          <img alt='' src='{{ GLOB.Router.root }}img/menu-home.png' />
+          {% trans('Home') %}
+        </span>
+      </a>
+    </li>
+
+    <li>
+      <a href='{{ siteUrl('/map') }}' title='' id='nav-map'>
+        <span class='center'>
+          <img alt='' src='{{ GLOB.Router.root }}img/menu-map.png' />
+          {% trans('Map') %}
+        </span>
+      </a>
+    </li>
+
+    <li>
+      <a href='{{ siteUrl('/itineraries') }}' id='nav-itineraries' title=''>
+        <span class='center'>
+          <img alt='' src='{{ GLOB.Router.root }}img/menu-itineraries.png' />
+          {% trans('Itineraries') %}
+        </span>
+      </a>
+    </li>
+
+    <li>
+      {% if GLOB.cookies.itinerary.id is defined %}
+        {% set stepsUrl = siteUrl('/itineraries/' ~ GLOB.cookies.itinerary.id ~ '/steps') %}
+        {% set disabled = false %}
+      {% else %}
+        {% set stepsUrl = siteUrl('/404') %}
+        {% set disabled = true %}
+      {% endif %}
+
+      <a href='{{ stepsUrl }}' title='' id='nav-steps' class='{% if disabled %}disabled{% endif %}'>
+        <span class='center'>
+          <img alt='' src='{{ GLOB.Router.root }}img/menu-steps{% if disabled %}-disabled{% endif %}.png' />
+          {% trans('Steps') %}
+        </span>
+      </a>
+    </li>
+
+    <li>
+      <a href='{{ siteUrl('/share') }}' id='nav-share' title=''>
+        <span class='center'>
+          <img alt='' src='{{ GLOB.Router.root }}img/menu-share.png' />
+          {% trans('Share') %}
+        </span>
+      </a>
+    </li>
+
+    <li>
+      <a href='{{ siteUrl('/about') }}' id='nav-about' title=''>
+        <span class='center'>
+          <img alt='' src='{{ GLOB.Router.root }}img/menu-about.png' />
+          {% trans('About') %}
+        </span>
+      </a>
+    </li>
+  </ul>
+
+</nav>
+

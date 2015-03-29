@@ -1,0 +1,46 @@
+{
+    "name": "La Tour Notre Dame du Val",
+    
+    "contents": [
+        {
+            "contents": "Poursuivre : Placez-vous dos à l’Église puis allez à droite rue Notre Dame. En face, vous apercevrez la Tour Notre Dame du Val.",
+            "type": "paragraph"
+        },
+
+        {
+            "contents": "110 mètres",
+            "type": "paragraph",
+            "icon": "footprints.png"
+        },
+
+        {
+            "contents": "La rescapée",
+            "type": "title"
+        },
+        
+        {
+            "contents": "Cette tour, construite au XVIe siècle, est le seul vestige de la collégiale Notre-Dame-du-Val, détruite pendant la Révolution française. Elle a récemment été restaurée mais n’est visible que de l’extérieur.",
+            "type": "paragraph"
+        }
+    ],
+
+    "question": {
+        "contents": "Quelle est l’utilité de la tour ?",
+        
+        "choices": [
+            "Entrée de l'enceinte du chapitre Notre-Dame-du-Val",
+            "Pigeonnier",
+            "Tour de guet",
+            "Clocher de l'Église Saint-Ayoul"
+        ],
+        
+        "answer": [0, 3],
+
+        "explanations": [
+            {
+                "contents": "Jusqu’à la Révolution cette tour indiquait l’entrée de l’enceinte du chapitre Notre-Dame-du-Val et servait de clocher pour l’église Saint-Ayoul, ce qui est encore valable aujourd’hui.",
+                "type": "paragraph"
+            }
+        ]
+    }
+}

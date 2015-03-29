@@ -1,0 +1,48 @@
+{
+    "name": "L'Église Saint-Ayoul",
+    
+    "contents": [
+        {
+            "contents": "Poursuivre : Rendez-vous au bout de la rue de la Cordonnerie, place Saint-Ayoul.",
+            "type": "paragraph"
+        },
+
+        {
+            "contents": "250 mètres",
+            "type": "paragraph",
+            "icon": "footprints.png"
+        },
+
+        {
+            "contents": "Tout en sculpture",
+            "type": "title"
+        },
+        
+        {
+            "contents": "Tu peux voir sur cette grande église beaucoup de sculptures. Dis-toi que ces sont des gens qui ne disposaient pas de grosses machines comme aujourd’hui qui les ont faites.",
+            "type": "paragraph"
+        }     
+    ],
+
+    "question": {
+        "contents": "Comment les ouvriers ont-ils sculpté ces portes ?",
+        
+        "choices": [
+            "Avec leurs dents",
+            "Avec un marteau et un burin",
+            "Des chats griffaient les murs",
+            "C'est la pluie qui a fait les sculptures"
+        ],
+        
+        "answer": 1,
+
+        "explanations" : [
+            {
+            "alt": "Photo de la façade de l'Église",
+            "type": "image",
+            "src": "facade-saint-ayoul.jpg"
+            }
+
+        ]
+    }
+}

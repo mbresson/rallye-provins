@@ -1,0 +1,21 @@
+{% extends 'skel/html.twig' %}
+
+{% block html_title %}{% endblock html_title %}
+
+{% block section %}
+
+<div class='cover'>
+  <img src='{{ GLOB.Router.root }}img/logo.png' alt='' />
+
+  <h1>Rallye<br />PROVINS</h1>
+</div><!-- .cover -->
+
+<div class='language-selector'>
+{% for language in GLOB.I18N.languages %}
+
+  <a class='button' href='{{ siteUrl('/itineraries?lc=' ~ language.html) }}' title='{{ language.name }}'>{{ language.name }}</a>
+
+{% endfor %}
+</div>
+
+{% endblock section %}

@@ -1,0 +1,52 @@
+{
+    "name": "L'Hôtel-Dieu",
+    
+    "contents": [
+        {
+            "contents": "Poursuivre : Poursuivez votre chemin sur la rue Saint-Thibault. Sur votre droite, vous allez apercevoir le lieu de votre prochaine étape : Les Souterrains et l’Hôtel-Dieu.",
+            "type": "paragraph"
+        },
+
+        {
+            "contents": "97 mètres",
+            "type": "paragraph",
+            "icon": "footprints.png"
+        },
+
+        {
+            "contents": "L'Hôtel-Dieu",
+            "type": "title"
+        },
+
+        {
+            "alt": "Photo de la salle basse de l'Hôtel-Dieu",
+            "type": "image",
+            "src": "salle-basse-hotel-dieu.jpg"
+        },
+        
+        {
+            "contents": "Fondé par Thibaut II de Champagne en 1160, l’Hôtel-Dieu sert de centre d’accueil pour les pèlerins. Ils étaient accueillis dans la salle Basse  qui est reliée aux souterrains et qui a aujourd’hui un accès direct sur la rue.",
+            "type": "paragraph"
+        }
+    ],
+
+    "question": {
+        "contents": "Quelle est la longueur du caveau de l’Hôtel-Dieu ?",
+        
+        "choices": [
+            "25 mètres",
+            "40 mètres",
+            "55 mètres",
+            "100 mètres"
+        ],
+        
+        "answer": 1,
+
+        "explanations": [
+            {
+                "contents": "Le caveau de l’Hôtel Dieu est long de 40 mètres et divisé en trois vaisseaux voûtés desquels partent les souterrains.",
+                "type": "paragraph"
+            }
+        ]
+    }
+}

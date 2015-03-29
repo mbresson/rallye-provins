@@ -1,0 +1,47 @@
+{
+    "name": "The Caesar Tower",
+    
+    "contents": [
+        {
+            "contents": "Now cross the square and on your left, you will see the Maison du Terroir et de l’artisanat. Turn right into the “Rue de l’Ormerie”.  Go down the “Rue Jean-Desmarets and turn left into the “Rue de la Pie”. You should be able to see the Caesar Tower, your next stop.",
+            "type": "paragraph"
+        },
+
+        {
+            "contents": "270 metres",
+            "type": "paragraph",
+            "icon": "footprints.png"
+        },
+
+        {
+            "contents": "Ave Caesar",
+            "type": "title"
+        },
+        
+        {
+            "contents": "Look at the imposing Caesar Tower.",
+            "type": "paragraph"
+        }     
+    ],
+
+    "question": {
+        "contents": "Why was it built?",
+        
+        "choices": [
+            "as a residence for the Count of Champagne",
+            "To impress and scare the enemy",
+            "To shoot arrows",
+            "To keep watch over the town"
+        ],
+        
+        "answer": 1 ,
+
+        "explanations" : [
+            {
+                "type": "paragraph",
+                "contents": "Actually, it was built to assert the power of the lord of the domain."
+            }
+
+        ]
+    }
+}

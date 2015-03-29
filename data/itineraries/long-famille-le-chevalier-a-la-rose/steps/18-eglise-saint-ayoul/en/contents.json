@@ -1,0 +1,44 @@
+{
+    "name": "The Saint-Ayoul church",
+    
+    "contents": [
+
+        {
+            "contents": "The two “churches”",
+            "type": "title"
+        },
+
+        {
+            "alt": "Inside the church",
+            "type": "image",
+            "src": "saint-ayoul.jpg"
+        },
+
+        
+        {
+            "contents": "Inside the church, the stained glass windows are not all identical.",
+            "type": "paragraph"
+        }     
+    ],
+
+    "question": {
+        "contents": "Why?",
+        
+        "choices": [
+            "The architect made a mistake",
+            "The wars destroyed them",
+            "It was intentional",
+            "Because the floor has sunk"
+        ],
+        
+        "answer": 3 ,
+
+        "explanations" : [
+            {
+            "type": "paragraph",
+            "contents": "Indeed the church was built on marshlands and as it was very heavy, it collapsed several times."
+            }
+
+        ]
+    }
+}

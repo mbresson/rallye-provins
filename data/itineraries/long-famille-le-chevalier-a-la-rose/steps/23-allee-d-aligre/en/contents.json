@@ -1,0 +1,47 @@
+{
+    "name": "The Aligre Alleys",
+    
+    "contents": [
+        {
+            "contents": "Retrace your steps and turn left into the Aligre Boulevard.",
+            "type": "paragraph"
+        },
+
+        {
+            "contents": "190 metres",
+            "type": "paragraph",
+            "icon": "footprints.png"
+        },
+
+        {
+            "contents": "A leisurely walk",
+            "type": "title"
+        },
+        
+        {
+            "contents": "In the past, there were ramparts in the place of the present boulevard. Can you see the river that flows along the boulevard? It is called “the Fausse-Rivière”.",
+            "type": "paragraph"
+        }     
+    ],
+
+    "question": {
+        "contents": "Do you know why?",
+        
+        "choices": [
+            "It is not real water that flows",
+            "It is a mountain",
+            "It is not a river",
+            "Because it was dug by men"
+        ],
+        
+        "answer": 3,
+
+        "explanations" : [
+            {
+                "contents": "Actually, it was dug by men as a means to avoid flooding, so it is not natural.",
+                "type": "paragraph"
+            }
+        ]
+    }
+
+}

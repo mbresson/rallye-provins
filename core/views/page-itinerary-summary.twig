@@ -1,0 +1,42 @@
+{% extends 'skel/html.twig' %}
+
+{% set itinerary = GLOB.data.itinerary %}{# shortcut #}
+
+{% block body_classes %}{{ parent() }} itinerary {% endblock body_classes %}
+
+{% block section_tag %}{{ parent() }} data-itinerary='{{ itinerary.id }}' {% endblock section_tag %}
+
+{% block section %}
+
+<h2 class='center'>{{ itinerary.name }}</h2>
+
+<h3 class='center'>{{ itinerary.pitch }}</h3>
+
+{% if itinerary.start == itinerary.arrival %}
+  <p class='start-arrival center'>
+    <strong>{% trans('Start / Arrival:') %}</strong> {{ itinerary.start }}
+  </p>
+{% else %}
+  <p class='start center'>
+    <strong>{% trans('Start:') %}</strong> {{ itinerary.start }}
+  </p>
+
+  <p class='arrival center'>
+    <strong>{% trans('Arrival:') %}</strong> {{ itinerary.arrival }}
+  </p>
+{% endif %}
+
+{% include 'table-itinerary-summary.twig' with {'itinerary': itinerary } %}
+
+<div class='center preview'>
+  <img src='{{ GLOB.Router.root }}img/itineraries/{{ itinerary['preview-map'] }}' alt='' />
+</div>
+
+<p class='center'>
+<a href='{{ siteUrl('/download/' ~ GLOB.I18N.preferred_language) }}?itinerary={{ itinerary.id }}' title='{% trans('Start') %}' data-msg-resume='{% trans('Resume') %}' class='button' id='start-itinerary'>
+    {% trans('Start') %}
+  </a>
+</p>
+
+{% endblock section %}
+

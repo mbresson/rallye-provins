@@ -1,0 +1,24 @@
+{
+  "cache": [
+    "css/main.min.css",
+    "js/script.min.js",
+    "js/jquery.min.js",
+
+    "about",
+
+    "img/imac.png",
+    "img/left_arrow.png",
+    "img/right_arrow.png",
+    "img/menu-about.png",
+    "img/menu-home.png",
+    "img/menu-itineraries.png",
+    "img/menu-map.png",
+    "img/menu-share.png",
+    "img/menu-steps.png",
+    "img/step-complete.png",
+    "img/step-current.png",
+    "img/step-locked.png",
+    "img/progress-start.png",
+    "img/progress-end.png"
+  ]
+}

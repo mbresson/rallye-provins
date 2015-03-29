@@ -1,0 +1,41 @@
+{
+    "name": "Église Saint-Ayoul",
+    
+    "contents": [
+        {
+            "contents": "Les deux “Églises”",
+            "type": "title"
+        },
+
+        {
+            "alt": "Photo de l'intérieur de l'Église Saint-Ayoul",
+            "type": "image",
+            "src": "saint-ayoul.jpg"
+        },
+        
+        {
+            "contents": "Depuis la Révolution française, l’Église est séparée en deux au niveau de la nef par un mur, le jubé : d’un côté l’espace occupé par les paroissiens, de l’autre celui des moines. On observe aussi dans la partie visitable deux architectures différentes et des vestiges d’anciennes peintures conservées.",
+            "type": "paragraph"
+        }
+    ],
+
+    "question": {
+        "contents": "À cause de quoi y a-t-il deux architectures différentes ?",
+        
+        "choices": [
+            "Incendie",
+            "Effondrement dû au sol instable",
+            "Pillage",
+            "Démolition due aux guerres"
+        ],
+        
+        "answer": 1,
+
+        "explanations": [
+            {
+                "contents": "L’Église est construite sur un marais ce qui rend le sol instable et a causé de nombreux effondrements. De ce fait, beaucoup de modifications et de renforts ont été apportés dans le temps, entraînant une différence d’architecture et coupant l’Église en deux.",
+                "type": "paragraph"
+            }
+        ]
+    }
+}

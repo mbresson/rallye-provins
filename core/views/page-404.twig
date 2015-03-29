@@ -1,0 +1,13 @@
+{% extends 'skel/html.twig' %}
+
+{% block section %}
+
+<h2>{% trans('Page not found! Are you lost?') %}</h2>
+
+<h3>
+  <a href='{{ siteUrl('/') }}' class='button' title="{% trans('Go back home') %}">{% trans('Go back home') %}</a>
+</h3>
+
+{% endblock section %}
+
+

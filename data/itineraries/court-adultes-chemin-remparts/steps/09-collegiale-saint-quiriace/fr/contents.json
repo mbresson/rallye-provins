@@ -1,0 +1,46 @@
+{
+    "name": "La Collégiale Saint-Quiriace",
+    
+    "contents": [
+        {
+            "contents": "Poursuivre : Continuez rue de la Pie jusqu’à la place Saint-Quiriace. Devant vous doit se trouver la Collégiale Saint-Quiriace.",
+            "type": "paragraph"
+        },
+
+        {
+            "contents": "61 mètres",
+            "type": "paragraph",
+            "icon": "footprints.png"
+        },
+
+        {
+            "contents": "La Collégiale abandonnée",
+            "type": "title"
+        },
+        
+        {
+            "contents": "C’est le Comte Henri le Libéral qui a lancé la reconstruction de la Collégiale Saint-Quiriace au XIIe siècle, devenue trop petite pour accueillir les prêtres et les fidèles.",
+            "type": "paragraph"
+        }
+    ],
+
+    "question": {
+        "contents": "À quoi est dû le non-aboutissement du monument ?",
+        
+        "choices": [
+            "La mort d'Henri le libéral",
+            "Le manque de matériau",
+            "La mort de l'architecte",
+            "Un incendie"
+        ],
+        
+        "answer": 0,
+
+        "explanations": [
+            {
+                "contents": "En 1181, Henri le libéral meurt en laissant la construction inachevée. Toutefois, le chœur étant abrité, les offices peuvent tout de même s’y dérouler.",
+                "type": "paragraph"
+            }
+        ]
+    }
+}

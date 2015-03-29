@@ -1,0 +1,46 @@
+{
+    "name": "The Caesar Tower",
+    
+    "contents": [
+        {
+            "contents": "Go down the “Rue Jean-Desmarets and turn left into the “Rue de la Pie”. You should be able to see the Caesar Tower, your next stop.",
+            "type": "paragraph"
+        },
+
+        {
+            "contents": "180 metres",
+            "type": "paragraph",
+            "icon": "footprints.png"
+        },
+
+        {
+            "contents": "Ave Caesar",
+            "type": "title"
+        },
+        
+        {
+            "contents": "In spite of its name, this tower is not Roman. The name was given during the Renaissance. This impressive tower has been used in different ways (as a watch tower, as a prison and as a church tower).",
+            "type": "paragraph"
+        }
+    ],
+
+    "question": {
+        "contents": "What was the aim of this building?",
+        
+        "choices": [
+            "To serve as a prison",
+            "To defend the town",
+            "To assert the power of the lord",
+            "As a residence of Thibaud IV of Champagne"
+        ],
+        
+        "answer": 2,
+
+        "explanations": [
+            {
+                "contents": "Originally, it was used as a donjon but actually it was meant to assert the power of the lord.",
+                "type": "paragraph"
+            }
+        ]
+    }
+}

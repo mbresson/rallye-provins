@@ -1,0 +1,46 @@
+{
+    "name": "À propos de Provins",
+    
+    "contents": [
+        {
+            "contents": "Poursuivre : Continuez tout droit sur la rue Saint-Jean.",
+            "type": "paragraph"
+        },
+
+        {
+            "contents": "120 mètres",
+            "type": "paragraph",
+            "icon": "footprints.png"
+        },
+
+        {
+            "contents": "Provins la célèbre",
+            "type": "title"
+        },
+        
+        {
+            "contents": "Grande puissance du XIIe et XIIIe siècle, Provins a autrefois été la 3e ville de France (après Paris et Rouen). Cette ville est notamment connue pour ses grandes foires et son commerce très développé. Aujourd’hui, on peut compter 58 monuments classés ou inscrits à l’Inventaire des Monuments Historiques.",
+            "type": "paragraph"
+        }
+    ],
+
+    "question": {
+        "contents": "Qu’est ce qui fait la renommée de Provins ?",
+        
+        "choices": [
+            "Ville médiévale la mieux conservée de France",
+            "La rose",
+            "Ancienne ville romaine",
+            "Ancienne ville de foire"
+        ],
+        
+        "answer": [0, 1, 3],
+
+        "explanations": [
+            {
+                "contents": "Ancienne ville de foire et protégée des ravages de la guerre, Provins est considérée comme la ville médiévale la mieux conservée de France. La rose en est son produit phare.",
+                "type": "paragraph"
+            }
+        ]
+    }
+}

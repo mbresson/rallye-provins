@@ -1,0 +1,12 @@
+{
+    "name": "The Knight of the Rose",
+    
+    "category": "Exploration",
+    
+    "target": "Family",
+    
+    "pitch": "Explore all of Provins with the help of the Knight of the Rose.",
+    
+    "start": "Saint-Jean Door",
+    "arrival": "Saint-Jean Door"
+}

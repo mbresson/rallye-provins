@@ -1,0 +1,695 @@
+/*****************************
+         DEPENDENCIES
+*****************************/
+/*****************************
+          VARIABLES
+*****************************/
+/*****************************
+            STYLE
+*****************************/
+/*
+ * The .itinerary .summary block is a table.
+ */
+.itinerary .summary {
+  width: 100%;
+  border-collapse: collapse;
+  text-align: center;
+}
+.itinerary .summary td {
+  vertical-align: top;
+  width: 33%;
+}
+.itinerary .summary .icon {
+  max-width: 30px;
+  display: block;
+  margin: auto;
+}
+.itinerary .summary p {
+  font-weight: bold;
+}
+/* .itinerary .summary */
+/* DO NOT ADD STYLING AFTER THE FINAL CLOSING BRACE */
+
+/*****************************
+         DEPENDENCIES
+*****************************/
+/*****************************
+          VARIABLES
+*****************************/
+/*****************************
+            STYLE
+*****************************/
+@font-face {
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Lato Regular'), local('Lato-Regular'), url(fonts/Lato-Regular.woff2) format('woff2'), url(fonts/Lato-Regular.woff) format('woff');
+}
+html {
+  overflow-y: auto;
+}
+body {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+  color: #333333;
+  font-family: 'Lato', sans-serif;
+  font-size: 16px;
+}
+.hidden {
+  display: none;
+}
+.center {
+  text-align: center;
+}
+.small {
+  font-size: 1em;
+}
+section {
+  padding: 2%;
+  padding-top: 54px;
+}
+a {
+  color: #741321;
+}
+a.disabled {
+  cursor: default;
+  color: #191919;
+  background-color: #646464;
+  background-color: rgba(100, 100, 100, 0.2);
+}
+p {
+  font-size: 1.1em;
+}
+/*********************
+       HEADER
+*********************/
+header {
+  background-color: #741321;
+  padding: 10px;
+  text-decoration: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 10;
+}
+header h1 {
+  font-size: 1.4em;
+  line-height: 34px;
+}
+#hamburger {
+  cursor: pointer;
+  display: block;
+  height: 25px;
+  position: relative;
+  width: 25px;
+  padding: 14.5px;
+  padding-top: 12.5px;
+  padding-bottom: 16.5px;
+  position: absolute;
+  left: 0;
+  top: 0;
+  float: left;
+}
+#hamburger div {
+  background-color: #ffffff;
+  border: 1px solid #eee;
+  border-radius: 2px 2px 2px 2px;
+  height: 1px;
+  margin-top: 5px;
+  width: 90%;
+}
+#hamburgerLayer {
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  right: 0;
+  top: 0;
+  z-index: 90;
+  background: black;
+  opacity: 0;
+}
+header h1 {
+  margin: 0;
+  text-align: center;
+  color: #ffffff;
+}
+/*********************
+         NAV
+*********************/
+nav {
+  left: 0;
+  top: 0;
+  position: fixed;
+  z-index: 100;
+  width: 70%;
+  height: 100%;
+  margin-left: -75%;
+  overflow-x: hidden;
+  overflow-y: auto;
+  border: 1px solid #a8636d;
+  background: #741321;
+}
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+}
+nav li {
+  position: relative;
+  font-size: 1em;
+  height: 16.66666667%;
+  min-height: 60px;
+}
+nav li a {
+  color: white;
+  text-decoration: none;
+  display: block;
+  border-bottom: 1px solid #a8636d;
+  padding: 0;
+  height: 100%;
+  box-sizing: border-box;
+  font-size: 1.1em;
+}
+/* used to vertically center the content of each link */
+nav li a:before {
+  content: '';
+  display: inline-block;
+  vertical-align: middle;
+  height: 100%;
+}
+nav li a .center {
+  display: inline-block;
+  vertical-align: middle;
+  line-height: 60px;
+}
+nav li a img {
+  max-height: 30px;
+  margin: 15px;
+  float: left;
+}
+/*
+ * An invisible layer which will be put over the page
+ * when the menu (nav) is shown, so that if we click the rest of the page,
+ * we can close the menu.
+ */
+#contentLayer {
+  display: none;
+  height: 100%;
+  overflow-x: hidden;
+  overflow-y: auto;
+  position: absolute;
+  right: 0;
+  top: 0;
+  width: 50%;
+  z-index: 5;
+}
+/*********************
+       BUTTONS
+*********************/
+.button {
+  display: inline-block;
+  background: #741321;
+  color: #fff;
+  font-size: 1.1em;
+  padding: 10px 18px;
+  text-decoration: none;
+  text-align: center;
+}
+.button.small {
+  padding: 5px 9px;
+}
+input.button {
+  border: none;
+}
+
+/*****************************
+         DEPENDENCIES
+*****************************/
+/*****************************
+          VARIABLES
+*****************************/
+/*****************************
+            STYLE
+*****************************/
+/*
+ * Styling for an animated progress bar.
+ */
+.meter {
+  height: 10px;
+  position: relative;
+  background: #fff;
+  border: 2px solid #000;
+  border-radius: 10px;
+  box-shadow: inset 0 -1px 1px rgba(255, 255, 255, 0.3);
+}
+.meter > span {
+  display: block;
+  height: 100%;
+  border-top-right-radius: 8px;
+  border-bottom-right-radius: 8px;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+  background-color: #741321;
+  position: relative;
+  overflow: hidden;
+  background-image: gradient(linear, left bottom, left top, color-stop(0, #2bc253), color-stop(1, #54f054));
+  background-image: -webkit-linear-gradient(center bottom, #2bc253 37%, #54f054 69%);
+  background-image: linear-gradient(center bottom, #2bc253 37%, #54f054 69%);
+  box-shadow: inset 0 2px 9px rgba(255, 255, 255, 0.3), inset 0 -2px 6px rgba(0, 0, 0, 0.4);
+}
+.meter > span:after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  background-image: gradient(linear, 0 0, 100% 100%, color-stop(0.25, rgba(255, 255, 255, 0.2)), color-stop(0.25, transparent), color-stop(0.5, transparent), color-stop(0.5, rgba(255, 255, 255, 0.2)), color-stop(0.75, rgba(255, 255, 255, 0.2)), color-stop(0.75, transparent), to(transparent));
+  background-image: -webkit-linear-gradient(135deg, rgba(255, 255, 255, 0.2) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.2) 50%, rgba(255, 255, 255, 0.2) 75%, transparent 75%, transparent);
+  background-image: linear-gradient(-45deg, rgba(255, 255, 255, 0.2) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.2) 50%, rgba(255, 255, 255, 0.2) 75%, transparent 75%, transparent);
+  z-index: 1;
+  background-size: 50px 50px;
+  -webkit-animation: move 2s linear infinite;
+          animation: move 2s linear infinite;
+  border-top-right-radius: 8px;
+  border-bottom-right-radius: 8px;
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
+  overflow: hidden;
+}
+@-webkit-keyframes move {
+  0% {
+    background-position: 0 0;
+  }
+  100% {
+    background-position: 50px 50px;
+  }
+}
+.meter > span:after,
+.meter .meter > span > span {
+  -webkit-animation: move 2s linear infinite;
+}
+/* .meter */
+/* DO NOT ADD STYLING AFTER THE FINAL CLOSING BRACE */
+
+/*****************************
+         DEPENDENCIES
+*****************************/
+/*****************************
+          VARIABLES
+*****************************/
+/*****************************
+            STYLE
+*****************************/
+#page-404 section {
+  text-align: center;
+}
+/* #page-404 */
+/* DO NOT ADD STYLING AFTER THE FINAL CLOSING BRACE */
+
+/*****************************
+         DEPENDENCIES
+*****************************/
+/*****************************
+          VARIABLES
+*****************************/
+/*****************************
+            STYLE
+*****************************/
+#page-about .logo {
+  text-align: center;
+}
+#page-about .logo img {
+  max-width: 30%;
+}
+/* #page-about */
+/* DO NOT ADD STYLING AFTER THE FINAL CLOSING BRACE */
+
+/*****************************
+         DEPENDENCIES
+*****************************/
+/*****************************
+          VARIABLES
+*****************************/
+/*****************************
+            STYLE
+*****************************/
+#page-itineraries ul.itineraries {
+  padding: 0;
+  margin: 0;
+}
+#page-itineraries .itinerary {
+  position: relative;
+  border-top: 1px solid #bbb;
+  list-style-type: none;
+  text-align: center;
+}
+#page-itineraries .itinerary:first-child {
+  border-top: none;
+}
+#page-itineraries .itinerary > a {
+  display: block;
+  overflow: auto;
+  padding-bottom: 10px;
+  text-decoration: initial;
+  color: initial;
+}
+/* #page-itineraries */
+/* DO NOT ADD STYLING AFTER THE FINAL CLOSING BRACE */
+
+/*****************************
+         DEPENDENCIES
+*****************************/
+/*****************************
+          VARIABLES
+*****************************/
+/*****************************
+            STYLE
+*****************************/
+#page-itinerary-step header h1 {
+  font-size: 1.1em;
+}
+#page-itinerary-step section .with-icon {
+  line-height: 30px;
+  font-weight: bold;
+}
+#page-itinerary-step section .icon {
+  float: left;
+  max-height: 30px;
+  width: auto;
+  margin-right: 10px;
+}
+#page-itinerary-step .image {
+  text-align: center;
+}
+#page-itinerary-step .image img {
+  max-width: 90%;
+}
+#page-itinerary-step .explanations {
+  display: none;
+}
+#page-itinerary-step .question fieldset {
+  border: none;
+}
+#page-itinerary-step .question .choice {
+  font-size: 1.1em;
+}
+#page-itinerary-step .question .choice input {
+  display: block;
+  float: left;
+  margin: 3.33333333px;
+}
+#page-itinerary-step .question .choice label:before {
+  content: '✗';
+  visibility: hidden;
+}
+#page-itinerary-step .question .choice.checked.right label:before {
+  content: '✓';
+}
+#page-itinerary-step .question form.submitted .choice.right {
+  color: #009E2F;
+}
+#page-itinerary-step .question form.submitted .choice.wrong {
+  color: #CCC;
+}
+#page-itinerary-step .question form.submitted .choice.checked.wrong {
+  color: #741321;
+}
+#page-itinerary-step .question form.submitted .choice.checked label:before,
+#page-itinerary-step .question form.submitted .choice.right label:before {
+  visibility: visible;
+}
+#page-itinerary-step .question form.submitted .choice input {
+  visibility: hidden;
+}
+#page-itinerary-step .question form.submitted .explanations {
+  display: block;
+}
+#page-itinerary-step .question form.submitted input.submit {
+  display: none;
+}
+#page-itinerary-step .question .choice label {
+  display: block;
+  padding: 10px 0;
+  width: 100%;
+}
+#page-itinerary-step input.submit {
+  display: block;
+  margin: auto;
+  margin-top: 10px;
+}
+#page-itinerary-step .controls {
+  text-align: center;
+}
+#page-itinerary-step .controls a {
+  display: inline-block;
+  vertical-align: top;
+  margin: 0 4%;
+}
+#page-itinerary-step .controls a.step-back {
+  position: absolute;
+  left: 0;
+}
+#page-itinerary-step .controls a.step-next {
+  position: absolute;
+  right: 0;
+}
+#page-itinerary-step .controls img {
+  max-width: 50px;
+}
+#page-itinerary-step .controls .button {
+  width: 30%;
+  margin-top: 7px;
+}
+#page-itinerary-step .close {
+  text-align: right;
+}
+/* #page-itinerary-step */
+/* DO NOT ADD STYLING AFTER THE FINAL CLOSING BRACE */
+
+/*****************************
+         DEPENDENCIES
+*****************************/
+/*****************************
+          VARIABLES
+*****************************/
+/*****************************
+          VARIABLES
+*****************************/
+/*****************************
+            STYLE
+*****************************/
+#page-itinerary-steps .progress {
+  margin-top: 2%;
+  width: 100%;
+  display: table;
+}
+#page-itinerary-steps .progress {
+  /* TODO: remove
+    .start .step {
+      border-radius: 50% 30% 30% 50%;
+      //background-color: #009E2F;
+      background-color: @global-primary-color;
+    }
+
+    .end .step {
+      border-radius: 30% 50% 50% 30%;
+      //background-color: black;
+      background-color: @global-primary-color;
+    }
+    */
+}
+#page-itinerary-steps .progress .step-container {
+  display: table-cell;
+  vertical-align: middle;
+}
+#page-itinerary-steps .progress .step {
+  width: 100%;
+}
+#page-itinerary-steps .progress .start .step,
+#page-itinerary-steps .progress .end .step {
+  width: 20px;
+  height: 20px;
+}
+#page-itinerary-steps .progress .start img,
+#page-itinerary-steps .progress .end img {
+  max-width: 30px;
+}
+#page-itinerary-steps .progress .line {
+  width: 50%;
+}
+#page-itinerary-steps .progress .line .step {
+  width: 100%;
+  height: 10px;
+  background-color: #741321;
+  border-radius: 5px 0 0 5px;
+}
+#page-itinerary-steps .progress .cursor + .line {
+  width: 100%;
+}
+#page-itinerary-steps .progress .cursor + .line .step {
+  background-color: #741321;
+  border-radius: 0 5px 5px 0;
+}
+#page-itinerary-steps .progress .cursor .step {
+  width: 5px;
+  height: 20px;
+  background-color: #741321;
+}
+#page-itinerary-steps .steps {
+  list-style-type: none;
+  padding: 0;
+}
+#page-itinerary-steps .steps a.step-url {
+  text-decoration: none;
+  color: #333333;
+  display: block;
+}
+#page-itinerary-steps .steps img.state {
+  max-width: 30px;
+  display: none;
+  float: left;
+  margin-right: 5%;
+}
+#page-itinerary-steps .steps .step.state-complete img.state.state-complete {
+  display: block;
+}
+#page-itinerary-steps .steps .step.state-locked img.state.state-locked {
+  display: block;
+}
+#page-itinerary-steps .steps .step.state-current img.state.state-current {
+  display: block;
+}
+/* #page-itinerary-steps */
+/* DO NOT ADD STYLING AFTER THE FINAL CLOSING BRACE */
+
+/*****************************
+         DEPENDENCIES
+*****************************/
+/*****************************
+          VARIABLES
+*****************************/
+/*****************************
+            STYLE
+*****************************/
+#page-itinerary-summary .preview img {
+  max-width: 100%;
+}
+/* #page-itinerary-summary */
+/* DO NOT ADD STYLING AFTER THE FINAL CLOSING BRACE */
+
+/*****************************
+         DEPENDENCIES
+*****************************/
+/*****************************
+          VARIABLES
+*****************************/
+/*****************************
+            STYLE
+*****************************/
+#page-map .map-wrapper {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  padding-top: 54px;
+  box-sizing: border-box;
+}
+#page-map .map {
+  width: 100%;
+  height: 100%;
+}
+#page-map .map .steplink {
+  font-size: 1.2em;
+  font-weight: bold;
+  white-space: nowrap;
+}
+#page-map .map .steplink a {
+  text-decoration: none;
+  color: #333;
+}
+/* #page-map */
+/* DO NOT ADD STYLING AFTER THE FINAL CLOSING BRACE */
+
+/*****************************
+         DEPENDENCIES
+*****************************/
+/*****************************
+          VARIABLES
+*****************************/
+/*****************************
+            STYLE
+*****************************/
+#page-share section {
+  text-align: center;
+}
+#page-share .social {
+  display: block;
+  margin: 20px auto;
+}
+#page-share .facebook iframe {
+  -webkit-transform: scale(1.3) !important;
+      -ms-transform: scale(1.3) !important;
+          transform: scale(1.3) !important;
+}
+/* #page-share */
+/* DO NOT ADD STYLING AFTER THE FINAL CLOSING BRACE */
+
+/*****************************
+         DEPENDENCIES
+*****************************/
+/*****************************
+          VARIABLES
+*****************************/
+/*****************************
+          VARIABLES
+*****************************/
+/*****************************
+            STYLE
+*****************************/
+#page-start section {
+  padding: 0;
+  height: 100%;
+}
+#page-start .cover {
+  width: 100%;
+  min-height: 200px;
+  position: relative;
+  background-color: #741321;
+}
+#page-start .cover img {
+  height: 200px;
+  display: block;
+  float: left;
+  margin-left: 5%;
+}
+#page-start .cover h1 {
+  margin: 0;
+  padding-top: 100px;
+  color: white;
+  font-size: 2em;
+}
+#page-start .language-selector {
+  width: 50%;
+  margin: auto;
+  height: 100%;
+}
+#page-start .language-selector a {
+  font-size: 1.2em;
+  font-weight: bold;
+  text-decoration: none;
+  display: block;
+  text-align: center;
+  margin: 20% 0;
+}
+/* #page-start */
+/* DO NOT ADD STYLING AFTER THE FINAL CLOSING BRACE */
+
+/*****************************
+          VARIABLES
+*****************************/

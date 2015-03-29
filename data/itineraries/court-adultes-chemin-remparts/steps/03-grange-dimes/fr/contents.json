@@ -1,0 +1,46 @@
+{
+    "name": "La Grange aux dîmes",
+    
+    "contents": [
+        {
+            "contents": "Poursuivre : Au bout de la rue Saint-Jean, vous trouverez sur votre gauche la prochaine étape : La Grange aux dîmes.",
+            "type": "paragraph"
+        },
+
+        {
+            "contents": "150 mètres",
+            "type": "paragraph",
+            "icon": "footprints.png"
+        },
+
+        {
+            "contents": "Bienvenue au marché",
+            "type": "title"
+        },
+        
+        {
+            "contents": "À l’origine, cette maison typique de Provins n’était pas faite pour stocker les marchandises, c’était une maison de marchands (auparavant il y en avait entre 150 et 200 de ce genre). L'appellation Grange aux dîmes est tardive.",
+            "type": "paragraph"
+        }
+    ],
+
+    "question": {
+        "contents": "À quoi servaient les pierres sur la façade de la grange ?",
+        
+        "choices": [
+            "À accrocher des marchandises",
+            "D'auvents",
+            "À faire joli",
+            "De perchoirs"
+        ],
+        
+        "answer": 1,
+
+        "explanations": [
+            {
+                "contents": "Les pierres qui ressortent sur la façade servaient à mettre des auvents pour abriter les marchands.",
+                "type": "paragraph"
+            }
+        ]
+    }
+}

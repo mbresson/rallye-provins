@@ -1,0 +1,47 @@
+{
+    "name": "The Durteint river",
+    
+    "contents": [
+        {
+            "contents": "Stop for a few minutes to watch  the Durteint river (on your left).",
+            "type": "paragraph"
+        },
+
+        {
+            "contents": "100 metres",
+            "type": "paragraph",
+            "icon": "footprints.png"
+        },
+
+        {
+            "contents": "A whimsical river",
+            "type": "title"
+        },
+        
+        {
+            "contents": "This river was very useful for the people of Provins who washed their clothes and dyed their wool in it. The water gave a particular blue colour to the wool called “bleu ners” (dark blue).",
+            "type": "paragraph"
+        }     
+    ],
+
+    "question": {
+        "contents": "In your opinion, why can the river be dangerous for the inhabitants who live next to it?",
+        
+        "choices": [
+            "They may drown",
+            "Their houses may collapse",
+            "It may overflow its banks",
+            "Mosquitoes may swarm the area"
+        ],
+        
+        "answer": 2 ,
+
+        "explanations" : [
+            {
+                "type": "paragraph",
+                "contents": "Even if all these risks are real, the city was raised to avoid frequent flooding."
+            }
+
+        ]
+    }
+}

@@ -1,0 +1,26 @@
+{
+    "name": "The church of Sainte-Croix",
+    
+    "contents": [
+        {
+            "contents": "Come back to the Saint-Ayoul square. Retrace your steps along the ”Rue de la Cordonnerie”. Turn right into the ”rue Alain Peyrefitte” and then left into the ”rue du petit cimetière sainte croix” from which you can see the Sainte-Croix church.",
+            "type": "paragraph"
+        },
+
+        {
+            "contents": "400 metres",
+            "type": "paragraph",
+            "icon": "footprints.png"
+        },
+
+        {
+            "contents": "Christ's cross",
+            "type": "title"
+        },
+        
+        {
+            "contents": "This church was erected where the Saint-Laurent-des-Ponts chapel used to stand in the 12th century. It received its name when Thibaud V brought back Christ’s cross from a pilgrimage to Jérusalem. It has been closed for the past 40 years for renovation.",
+            "type": "paragraph"
+        }
+    ]
+}

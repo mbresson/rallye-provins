@@ -1,0 +1,46 @@
+{
+    "name": "L'Allée des Remparts",
+    
+    "contents": [
+        {
+            "contents": "Poursuivre : Continuez sur l’allée des Lépreux puis sur l’allée des Remparts.",
+            "type": "paragraph"
+        },
+
+        {
+            "contents": "240 mètres",
+            "type": "paragraph",
+            "icon": "footprints.png"
+        },
+
+        {
+            "contents": "Le long des remparts",
+            "type": "title"
+        },
+        
+        {
+            "contents": "À l’époque, Provins possédait une des enceintes fortifiées les plus imposantes de France. Marcher le long des remparts donne une idée de l’ampleur de la construction qui à l’époque entourait toute la ville.",
+            "type": "paragraph"
+        }
+    ],
+
+    "question": {
+        "contents": "À votre avis, quelle est la longueur des remparts ?",
+        
+        "choices": [
+            "1000 mètres",
+            "1200 mètres",
+            "1500 mètres",
+            "1900 mètres"
+        ],
+        
+        "answer": 1,
+
+        "explanations": [
+            {
+                "contents": "La longueur des remparts est de 1200 mètres aujourd’hui sur lesquels sont construites 22 tours. À l’origine, les remparts étaient longs de 5000 mètres !",
+                "type": "paragraph"
+            }
+        ]
+    }
+}

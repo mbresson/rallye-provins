@@ -1,0 +1,48 @@
+{
+    "name": "Allée des Remparts",
+    
+    "contents": [
+        {
+            "contents": "Poursuivre : Sortez de l’enceinte des remparts en franchissant la Porte de Jouy. Prenez à gauche et longez les remparts.",
+            "type": "paragraph"
+        },
+
+        {
+            "contents": "550 mètres",
+            "type": "paragraph",
+            "icon": "footprints.png"
+        },
+
+        {
+            "contents": "Le long des Remparts",
+            "type": "title"
+        },
+        
+        {
+            "contents": "Imaginez la longueur des remparts lorsqu’il y en avait autour de toute la ville !",
+            "type": "paragraph"
+        }     
+    ],
+
+    "question": {
+        "contents": "Si tu devais deviner, quelle est la longueur des remparts actuels ?",
+        
+        "choices": [
+            "1 terrain de foot",
+            "10 terrains de foot",
+            "20 terrains de foot",
+            "50 terrains de foot"
+        ],
+        
+        "answer": 1 ,
+
+        "explanations" : [
+
+            {
+                "contents": "Aujourd’hui, on compte 1200 mètres de remparts, c’est-à-dire environ 10 terrains de foot mis bout à bout. Mais avant, il y avait même 5 kilomètres de remparts, environ 41 terrains de foot !",
+                "type": "paragraph"
+            }  
+
+        ]
+    }
+}

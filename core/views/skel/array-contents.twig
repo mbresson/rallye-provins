@@ -1,0 +1,42 @@
+
+{#
+ # this template is used to output the content of an array
+ # the 'contents' array can contain various types of data:
+ # title, paragraph, image
+ #}
+
+{% for item in contents %}
+
+  {% if item.icon is defined %}
+  <div class='with-icon'>
+
+    <img class='icon' src='{{ GLOB.Router.root }}img/itineraries/{{ item.icon }}' alt='' />
+  {% endif %}
+
+  {% set classes = '' %}
+  {% if item.classes is defined %}
+  {% set classes = item.classes|join(' ') %}
+  {% endif %}
+
+  {% if item.type == 'title' %}
+
+    <h2 class='{{ classes }}'>{{ item.contents }}</h2>
+
+  {% elseif item.type == 'paragraph' %}
+
+    <p class='{{ classes }}'>{{ item.contents }}</p>
+
+  {% elseif item.type == 'image' %}
+
+    <div class='image {{ classes }}'>
+      <img src='{{ GLOB.Router.root }}img/itineraries/{{ item.src|e('html_attr') }}' alt='{{ item.alt|e('html_attr') }}' />
+    </div>
+
+  {% endif %}
+
+  {% if item.icon is defined %}
+  </div>
+  {% endif %}
+
+{% endfor %}
+

@@ -1,0 +1,48 @@
+{
+    "name": "The ramparts alley",
+    
+    "contents": [
+        {
+            "contents": "Walk along the ramparts and walk out the Jouy door. Turn left and keep walking.",
+            "type": "paragraph"
+        },
+
+        {
+            "contents": "550 metres",
+            "type": "paragraph",
+            "icon": "footprints.png"
+        },
+
+        {
+            "contents": "Along the ramparts",
+            "type": "title"
+        },
+        
+        {
+            "contents": "Imagine how long the ramparts were when they circled the town!",
+            "type": "paragraph"
+        }     
+    ],
+
+    "question": {
+        "contents": "How long are the ramparts today?",
+        
+        "choices": [
+            "The length of one football field",
+            "10 football fields",
+            "20 football fields",
+            "50 football fields"
+        ],
+        
+        "answer": 1 ,
+
+        "explanations" : [
+
+            {
+                "contents": "Today, the ramparts are 1200 metres long, that is to say roughly the length of 10 football fields. But in the past, they were 5 kilometres long, so the length of 41 football fields!",
+                "type": "paragraph"
+            }  
+
+        ]
+    }
+}

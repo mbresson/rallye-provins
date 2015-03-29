@@ -1,0 +1,53 @@
+{
+    "name": "Niflette",
+    
+    "contents": [
+        {
+            "contents": "Go back to the Jouy door and walk out of the walls. Turn left and walk along the ramparts",
+            "type": "paragraph"
+        },
+
+        {
+            "contents": "180 metres",
+            "type": "paragraph",
+            "icon": "footprints.png"
+        },
+
+        {
+            "contents": "Ne flete",
+            "type": "title"
+        },
+
+        {
+            "alt": "Photo of some niflettes",
+            "type": "image",
+            "src": "niflette.jpg"
+        },
+        
+        {
+            "contents": "The famous Niflettes of Provins are small cakes that were offered to orphans on November 1, on All Saints’ Day accompanied by these words: “Ne flete”.",
+            "type": "paragraph"
+        }     
+    ],
+
+    "question": {
+        "contents": "What may “Ne flete” mean?",
+        
+        "choices": [
+            "Don't worry",
+            "Don't cry",
+            "Eat it and keep quiet",
+            "Calm down"
+        ],
+        
+        "answer": 1 ,
+
+        "explanations" : [
+            {
+                "type": "paragraph",
+                "contents": "“Ne flete” means “Don't cry” ."
+            }
+
+        ]
+    }
+}

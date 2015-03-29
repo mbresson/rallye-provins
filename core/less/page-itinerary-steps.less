@@ -1,0 +1,133 @@
+
+
+/*****************************
+         DEPENDENCIES
+*****************************/
+
+@import 'variables.less';
+
+
+/*****************************
+          VARIABLES
+*****************************/
+
+@progress-step-size: 10px;
+@progress-line-radius: (@progress-step-size / 2);
+
+
+/*****************************
+            STYLE
+*****************************/
+
+#page-itinerary-steps {
+
+  .progress {
+    margin-top: 2%;
+    width: 100%;
+    display: table;
+  }
+
+  .progress {
+
+    .step-container {
+      display: table-cell;
+      vertical-align: middle;
+    }
+
+    .step {
+      width: 100%;
+    }
+
+    .start, .end {
+      .step {
+        width: @progress-step-size * 2;
+        height: @progress-step-size * 2;
+      }
+
+      img {
+        max-width: @global-icon-width;
+      }
+    }
+
+    /* TODO: remove
+    .start .step {
+      border-radius: 50% 30% 30% 50%;
+      //background-color: #009E2F;
+      background-color: @global-primary-color;
+    }
+
+    .end .step {
+      border-radius: 30% 50% 50% 30%;
+      //background-color: black;
+      background-color: @global-primary-color;
+    }
+    */
+
+
+    .line {
+      width: 50%;
+
+      .step {
+        width: 100%;
+        height: @progress-step-size;
+        background-color: @global-primary-color;
+        border-radius: @progress-line-radius 0 0 @progress-line-radius;
+      }
+    }
+
+    .cursor + .line {
+      width: 100%;
+
+      .step {
+        background-color: @global-primary-color;
+        border-radius: 0 @progress-line-radius @progress-line-radius 0;
+      }
+    }
+
+    .cursor .step {
+      width: @progress-step-size / 2;
+      height: @progress-step-size * 2;
+      background-color: @global-primary-color;
+    }
+  }
+
+
+
+  .steps {
+    list-style-type: none;
+    padding: 0;
+  }
+
+  .steps {
+
+    a.step-url {
+      text-decoration: none;
+      color: @body-color;
+      display: block;
+    }
+
+    img.state {
+      max-width: @global-icon-width;
+      display: none;
+      float: left;
+      margin-right: @global-icon-spacing;
+    }
+
+    .step.state-complete img.state.state-complete {
+      display: block;
+    }
+
+    .step.state-locked img.state.state-locked {
+      display: block;
+    }
+
+    .step.state-current img.state.state-current {
+      display: block;
+    }
+
+  }
+
+} /* #page-itinerary-steps */
+
+/* DO NOT ADD STYLING AFTER THE FINAL CLOSING BRACE */
+

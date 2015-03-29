@@ -1,0 +1,33 @@
+{
+    "name": "The Hôtel-Dieu",
+    
+    "contents": [
+        {
+            "contents": "Keep walking along the rue Saint Thibault. The next step in the rally will be the underground galleries and the Hôtel-Dieu on your right.",
+            "type": "paragraph"
+        },
+
+        {
+            "contents": "97 metres",
+            "type": "paragraph",
+            "icon": "footprints.png"
+        },
+
+        {
+            "contents": "The Hôtel-Dieu",
+            "type": "title"
+        },
+
+        {
+            "alt": "Inside the Hôtel-Dieu",
+            "type": "image",
+            "src": "salle-basse-hotel-dieu.jpg"
+        }, 
+        
+        {
+            "contents": "Thibaut II founded it. Pilgrims are welcomed to sleep there.",
+            "type": "paragraph"
+        }     
+    ]
+
+}

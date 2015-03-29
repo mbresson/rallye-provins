@@ -1,0 +1,26 @@
+{
+    "name": "Le boulevard ou Allée d’Aligre",
+    
+    "contents": [
+        {
+            "contents": "Poursuivre : Revenez sur vos pas en prenant à gauche sur le Boulevard d’Aligre.",
+            "type": "paragraph"
+        },
+
+        {
+            "contents": "190 mètres",
+            "type": "paragraph",
+            "icon": "footprints.png"
+        },
+
+        {
+            "contents": "Douce balade",
+            "type": "title"
+        },
+        
+        {
+            "contents": "Ce boulevard porte le nom de l’abbé François d’Aligre de l'Église Saint-Jacques de Provins au XVIIIe siècle. La rivière qui le borde est appelée Fausse Rivière car elle a été creusée par l’Homme afin de protéger la ville des crues violentes. De plus, au Moyen-âge, ce boulevard correspondait à l’emplacement des remparts actuellement totalement détruits mais dont il reste des vestiges.",
+            "type": "paragraph"
+        }
+    ]
+}

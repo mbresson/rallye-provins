@@ -1,0 +1,46 @@
+{
+    "name": "Rue de l'Ormerie",
+    
+    "contents": [
+        {
+            "contents": "Poursuivre : Traversez la place. Sur votre gauche, vous apercevrez la Maison du Terroir et de l’Artisanat. Prenez à droite, rue de l’Ormerie.",
+            "type": "paragraph"
+        },
+
+        {
+            "contents": "68 mètres",
+            "type": "paragraph",
+            "icon": "footprints.png"
+        },
+
+        {
+            "contents": "Les disparus de Provins",
+            "type": "title"
+        },
+        
+        {
+            "contents": "Au Xe siècle, la ville était beaucoup plus importante et comptait 80 000 habitants. Aujourd’hui, il n’en reste plus que 12 000.",
+            "type": "paragraph"
+        }
+    ],
+
+    "question": {
+        "contents": "Qu’est ce qui a provoqué le déclin de la ville de Provins ?",
+        
+        "choices": [
+            "Disparition des foires",
+            "Modification des routes commerciales",
+            "Les guerres",
+            "Une inondation"
+        ],
+        
+        "answer": [0, 1, 2],
+
+        "explanations": [
+            {
+                "contents": "Le déclin de la ville de Provins s’est opéré en quelques décennies au XIVe siècle à cause de la disparition des foires (concurrence des foires du sud), de la modification des routes commerciales, des guerres et des épidémies.",
+                "type": "paragraph"
+            }
+        ]
+    }
+}

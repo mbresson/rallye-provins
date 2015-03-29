@@ -1,0 +1,53 @@
+{
+    "name": "The Sainte Croix Church",
+    
+    "contents": [
+        {
+            "contents": "Come back to the Saint-Ayoul square. Retrace your steps along the ”Rue de la Cordonnerie”. Turn right into the ”rue Alain Peyrefitte” and then left into the ”rue du petit cimetière sainte croix” from which you can see the Sainte-Croix church.",
+            "type": "paragraph"
+        },
+
+        {
+            "contents": "400 metres",
+            "type": "paragraph",
+            "icon": "footprints.png"
+        },
+
+        {
+            "contents": "Christ's cross",
+            "type": "title"
+        },
+        
+        {
+            "contents": "Thibaud IV gave the name to the church when he brought back a piece of Christ’s cross from one of his travels.",
+            "type": "paragraph"
+        },
+
+        {
+            "contents": "Examine the church’s gate.",
+            "type": "paragraph"
+        }   
+    ],
+
+    "question": {
+        "contents": "Can you see what can be found on a beach?",
+        
+        "choices": [
+            "Waves",
+            "Snow",
+            "Shells",
+            "Crabs"
+        ],
+        
+        "answer": 2,
+
+        "explanations" : [
+            {
+                "type": "paragraph",
+                "contents": "The gate is decorated with scallop shells but also marine monsters that symbolise the presence of water."
+            }
+
+        ]
+    }
+
+}

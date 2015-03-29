@@ -1,0 +1,37 @@
+{
+    "name": "La Tour César",
+    
+    "contents": [
+        {
+            "contents": "Ding Dong",
+            "type": "title"
+        },
+
+        {
+            "alt": "Photo du clocher de la Tour César",
+            "type": "image",
+            "src": "cloches-cesar.jpg"
+        }     
+    ],
+
+    "question": {
+        "contents": "Pourquoi y a-t-il des cloches en haut de cette tour ?",
+        
+        "choices": [
+            "Pour indiquer l’heure",
+            "Donner l’alerte",
+            "Ce sont celles de l’Église qu’on aperçoit derrière",
+            "Faire joli"
+        ],
+        
+        "answer": 2 ,
+
+        "explanations" : [
+            {
+                "type": "paragraph",
+                "contents": "La grande Église derrière, l’Église Saint-Quiriace, n’a pas de cloches car il n’y a pas de place pour les mettre. On les a déplacées dans la Tour César en attendant."
+            }
+
+        ]
+    }
+}

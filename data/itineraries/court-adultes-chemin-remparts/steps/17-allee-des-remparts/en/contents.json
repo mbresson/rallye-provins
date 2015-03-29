@@ -1,0 +1,46 @@
+{
+    "name": "The Ramparts alley",
+    
+    "contents": [
+        {
+            "contents": "Keep walking allong the “Allée des Lépreux”, then walk on the Ramparts alley.",
+            "type": "paragraph"
+        },
+
+        {
+            "contents": "240 metres",
+            "type": "paragraph",
+            "icon": "footprints.png"
+        },
+
+        {
+            "contents": "Along the Ramparts",
+            "type": "title"
+        },
+        
+        {
+            "contents": "In the past, the ramparts of Provins were the strongest in France. Strolling along the ramparts will give you an idea of how impressive the construction which circled the town was.",
+            "type": "paragraph"
+        }
+    ],
+
+    "question": {
+        "contents": "In your opinion, how long are the ramparts?",
+        
+        "choices": [
+            "1000 metres",
+            "1200 metres",
+            "1500 metres",
+            "1900 metres"
+        ],
+        
+        "answer": 1,
+
+        "explanations": [
+            {
+                "contents": "Today, they are 1200 metres long with 22 towers. Originally, they were 5000 metres long.",
+                "type": "paragraph"
+            }
+        ]
+    }
+}

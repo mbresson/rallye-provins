@@ -1,0 +1,10 @@
+{
+    "name": "Fin de l'aventure",
+
+    "contents": [
+        {
+            "contents": "Bravo, vous voilà arrivés à la fin du parcours ! Vous en savez désormais plus sur la ville de Provins.",
+            "type": "title"
+        }
+    ]
+}

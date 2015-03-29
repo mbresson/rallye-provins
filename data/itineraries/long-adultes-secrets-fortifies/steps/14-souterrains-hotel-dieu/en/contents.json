@@ -1,0 +1,52 @@
+{
+    "name": "The Hôtel-Dieu",
+    
+    "contents": [
+        {
+            "contents": "Keep walking along the rue Saint Thibault. The next step in the rally will be the underground galleries and the Hôtel-Dieu on your right.",
+            "type": "paragraph"
+        },
+
+        {
+            "contents": "97 metres",
+            "type": "paragraph",
+            "icon": "footprints.png"
+        },
+
+        {
+            "contents": "The Hôtel-Dieu",
+            "type": "title"
+        },
+
+        {
+            "alt": "Inside the Hôtel-Dieu",
+            "type": "image",
+            "src": "salle-basse-hotel-dieu.jpg"
+        },
+        
+        {
+            "contents": "It was founded by Thibaut II of Champagne in 1160 and is now used as a centre to welcome pilgrims who used to be sheltered in the lower room connected to the galleries. Today, it has a direct access to the street.",
+            "type": "paragraph"
+        }
+    ],
+
+    "question": {
+        "contents": "How long is the vault?",
+        
+        "choices": [
+            "25 metres",
+            "40 metres",
+            "55 metres",
+            "100 metres"
+        ],
+        
+        "answer": 1,
+
+        "explanations": [
+            {
+                "contents": "It is 40 metres long and is divided into 3 parts which are linked to the underground galleries.",
+                "type": "paragraph"
+            }
+        ]
+    }
+}

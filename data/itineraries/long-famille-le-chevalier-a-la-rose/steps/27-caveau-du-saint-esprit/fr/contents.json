@@ -1,0 +1,48 @@
+{
+    "name": "Le Caveau du Saint-Esprit",
+    
+    "contents": [
+        {
+            "contents": "Poursuivre : Retournez à la Porte de Jouy et placez-vous dos à elle. Avancez tout droit rue de Jouy avant d’apercevoir sur votre gauche le Caveau de Saint-Esprit.",
+            "type": "paragraph"
+        },
+
+        {
+            "contents": "130 mètres",
+            "type": "paragraph",
+            "icon": "footprints.png"
+        },
+
+        {
+            "contents": "La Salle basse",
+            "type": "title"
+        },
+
+        {
+            "contents": "Avant, c’était un hôpital mais maintenant, on peut y organiser des réceptions.",
+            "type": "paragraph"
+        }     
+    ],
+
+    "question": {
+        "contents": "À ton avis, qui venait dans cet hôpital ?",
+        
+        "choices": [
+            "Les pauvres",
+            "Les riches",
+            "Les vieillard",
+            "Les enfants"
+        ],
+        
+        "answer": [0, 2, 3] ,
+
+        "explanations" : [
+
+            {
+                "contents": "Si tu regardes la plaque en hauteur sur le mur, tu peux voir que cet ancien hôpital accueillait les pauvres, les vieillards et les enfants.",
+                "type": "paragraph"
+            }  
+
+        ]
+    }
+}

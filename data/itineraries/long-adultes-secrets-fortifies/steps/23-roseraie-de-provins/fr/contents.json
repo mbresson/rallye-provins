@@ -1,0 +1,52 @@
+{
+    "name": "La Roseraie de Provins",
+    
+    "contents": [
+        {
+            "contents": "Poursuivre : Traversez le parc pour rejoindre le boulevard d’Aligre. Prenez alors à gauche. Sur le chemin, vous pourrez observer à votre droite un nouveau point de vue sur l’Abbaye des Cordelières. Puis, tournez à gauche rue des Près, vous verrez alors la Roseraie de Provins.",
+            "type": "paragraph"
+        },
+
+        {
+            "contents": "500 mètres",
+            "type": "paragraph",
+            "icon": "footprints.png"
+        },
+
+        {
+            "contents": "La Rose du Temps",
+            "type": "title"
+        },
+
+        {
+            "alt": "Photo de la rose de Provins",
+            "type": "image",
+            "src": "rose.jpg"
+        },
+        
+        {
+            "contents": "La Roseraie est un immense jardin de 3 hectares répertoriant plus de 300 variétés de roses différentes. La plus connue est la Rose de Provins dont vous pourrez découvrir l’histoire.",
+            "type": "paragraph"
+        }
+    ],
+
+    "question": {
+        "contents": "Quelle est l’autre nom de la rose de Provins ?",
+        
+        "choices": [
+            "Gallinacé",
+            "Gallique",
+            "Galimatias",
+            "Gallo-romaine"
+        ],
+        
+        "answer": 1,
+
+        "explanations": [
+            {
+                "contents": "La rose de Provins ou rose Gallique est issue d’un buisson robuste ne demandant pas beaucoup d’entretien. On ne la trouve quasiment plus chez les producteurs à cause de son aspect peu spectaculaire.",
+                "type": "paragraph"
+            }
+        ]
+    }
+}

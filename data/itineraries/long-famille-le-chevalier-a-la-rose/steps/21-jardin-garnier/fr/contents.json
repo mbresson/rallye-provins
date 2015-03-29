@@ -1,0 +1,64 @@
+{
+    "name": "Le Jardin Garnier",
+    
+    "contents": [
+        {
+            "contents": "Poursuivre : De la rue du petit cimetière de Sainte-Croix, prenez tout droit la rue Toussaint Rose puis tournez à droite dans la rue Valentin Abeille avant d’entrer dans le Jardin Garnier.",
+            "type": "paragraph"
+        },
+
+        {
+            "contents": "160 mètres",
+            "type": "paragraph",
+            "icon": "footprints.png"
+        },
+
+        {
+            "contents": "Espace détente",
+            "type": "title"
+        },
+
+        {
+            "alt": "Photo de l'entrée du Jardin",
+            "type": "image",
+            "src": "jardin-garnier.jpg"
+        },
+        
+        {
+            "contents": "Le jardin Garnier est aujourd’hui un parc public.",
+            "type": "paragraph"
+        },
+
+        {
+            "alt": "Photo de la statue",
+            "type": "image",
+            "src": "statue-garnier.jpg"
+        },
+
+        {
+            "contents": "Le premier qui trouve la statue sur la photo a gagné !",
+            "type": "paragraph"
+        }  
+    ],
+
+    "question": {
+        "contents": "Regarde la statue. Quel était le prénom de l'homme qui a donné son nom au parc ?",
+        
+        "choices": [
+            "Auguste",
+            "George",
+            "Victor",
+            "Thibaut"
+        ],
+        
+        "answer": 2 ,
+
+        "explanations" : [
+            {
+                "type": "paragraph",
+                "contents": "Victor Garnier a donné son nom au parc."
+            }
+
+        ]
+    }
+}

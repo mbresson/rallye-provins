@@ -1,0 +1,44 @@
+{
+    "name": "L'Église Saint-Ayoul",
+    
+    "contents": [
+
+        {
+            "contents": "Les deux “Églises”",
+            "type": "title"
+        },
+
+        {
+            "alt": "Photo de l'intérieur de l'Église",
+            "type": "image",
+            "src": "saint-ayoul.jpg"
+        },
+
+        
+        {
+            "contents": "À l’intérieur, tu peux remarquer que les vitraux ne sont pas tous pareils.",
+            "type": "paragraph"
+        }     
+    ],
+
+    "question": {
+        "contents": "Pour quelles raisons à ton avis ?",
+        
+        "choices": [
+            "L'architecte s'est trompé",
+            "Démolition due aux guerres",
+            "Pour faire joli",
+            "Effondrement à cause du sol"
+        ],
+        
+        "answer": 3 ,
+
+        "explanations" : [
+            {
+            "type": "paragraph",
+            "contents": "En effet, on ne s’est en pas rendu compte mais on a construit l'Église sur un ancien marais. Du coup, le sol était trop mou pour un si gros bâtiment et l’Église s’est effondrée plusieurs fois au cours du temps."
+            }
+
+        ]
+    }
+}

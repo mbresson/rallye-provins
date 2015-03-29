@@ -1,0 +1,43 @@
+{
+    "name": "The Tithe Barn",
+    
+    "contents": [
+
+        {
+            "contents": "The tradesmen's house",
+            "type": "title"
+        },
+
+        {
+            "alt": "Inside the Tithe Barn",
+            "type": "image",
+            "src": "grange-interieur.jpg"
+        }, 
+        
+        {
+            "contents": "Inside the house, you can see tradesmen at work, for example the Italian spice seller or the money changer.",
+            "type": "paragraph"
+        }     
+    ],
+
+    "question": {
+        "contents": "Which floor do you think the tradesmen lived on?",
+        
+        "choices": [
+            "In the basement",
+            "On the ground floor",
+            "On the first floor",
+            "Elsewhere"
+        ],
+        
+        "answer": 2,
+
+        "explanations" : [
+            {
+                "type": "paragraph",
+                "contents": "The first floor was a private space for the tradesmen, the basement was used as a warehouse for the craftsmen and the groundfloor was used as a stall to display goods."
+            }
+
+        ]
+    }
+}

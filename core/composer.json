@@ -1,0 +1,33 @@
+{
+  "name": "Rallye Provins",
+
+  "authors": [
+    {
+        "name": "Matthieu Bresson",
+        "email": "bresson-matthieu@orange.fr"
+    },
+
+    {
+        "name": "Marie Benoist",
+        "email": "marie.benoist16@gmail.com"
+    },
+
+    {
+        "name": "Lisa Françoise",
+        "email": "lisa.francoise18@gmail.com"
+    },
+
+    {
+        "name": "Alice Neichols",
+        "email": "aliceneichols@gmail.com"
+    }
+  ],
+
+  "require": {
+    "slim/slim": "2.6.*",
+    "slim/views": "0.1.*",
+    "slim/logger": "0.1.*",
+    "twig/twig": "1.18.*",
+    "twig/extensions": "1.2.*"
+  }
+}

@@ -1,0 +1,47 @@
+{
+    "name": "La Tour Notre Dame du Val",
+    
+    "contents": [
+        {
+            "contents": "Poursuivre : Placez-vous dos à l’Église puis allez à droite rue Notre Dame. En face, vous apercevrez la Tour Notre Dame du Val.",
+            "type": "paragraph"
+        },
+
+        {
+            "contents": "110 mètres",
+            "type": "paragraph",
+            "icon": "footprints.png"
+        },
+
+        {
+            "contents": "La Rescapée",
+            "type": "title"
+        },
+        
+        {
+            "contents": "Regarde attentivement la tour.",
+            "type": "paragraph"
+        }     
+    ],
+
+    "question": {
+        "contents": "À ton avis, qu’y avait-il avant ?",
+        
+        "choices": [
+            "Un donjon",
+            "Un château",
+            "Une maison",
+            "Une Collégiale"
+        ],
+        
+        "answer": 3,
+
+        "explanations" : [
+            {
+                "type": "paragraph",
+                "contents": "Avant, il y avait une collégiale et la Tour servait d’entrée. Tout a été détruit pendant la Révolution et il ne reste aujourd’hui que la Tour que tu peux voir."
+            }
+
+        ]
+    }
+}

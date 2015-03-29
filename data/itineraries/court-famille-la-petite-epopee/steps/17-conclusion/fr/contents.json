@@ -1,0 +1,12 @@
+{
+    "name": "Fin de l'aventure",
+    
+    "contents": [
+
+        {
+            "contents": "Bravo ! Grâce à cette aventure passée ensemble, te voilà apprenti chevalier de la ville de Provins !",
+            "type": "title"
+        }
+          
+    ]
+}

@@ -1,0 +1,48 @@
+{
+    "name": "Les Remparts",
+    
+    "contents": [
+        {
+            "contents": "Poursuivre : Placez-vous dos à la porte de Jouy et prenez à droite pour longer les remparts. Dès que vous voyez des escaliers, commencez à monter les marches.",
+            "type": "paragraph"
+        },
+
+        {
+            "contents": "85 mètres",
+            "type": "paragraph",
+            "icon": "footprints.png"
+        },
+
+        {
+            "contents": "Le long des Remparts",
+            "type": "title"
+        },
+        
+        {
+            "contents": "Compte le nombre de marches pour monter en haut des remparts.",
+            "type": "paragraph"
+        }     
+    ],
+
+    "question": {
+        "contents": "Combien y en a-t-il ?",
+        
+        "choices": [
+            "20",
+            "40",
+            "60",
+            "80"
+        ],
+        
+        "answer": 1 ,
+
+        "explanations" : [
+
+            {
+                "contents": "Il y a 40 marches pour monter en haut des remparts !",
+                "type": "paragraph"
+            }  
+
+        ]
+    }
+}

@@ -1,0 +1,46 @@
+{
+    "name": "The “Rue de l’Ormerie”",
+    
+    "contents": [
+        {
+            "contents": "Now cross the square and on your left, you will see the Maison du Terroir et de l’artisanat. Turn right into the “Rue de l’Ormerie”.",
+            "type": "paragraph"
+        },
+
+        {
+            "contents": "68 metres",
+            "type": "paragraph",
+            "icon": "footprints.png"
+        },
+
+        {
+            "contents": "The missing ones of Provins",
+            "type": "title"
+        },
+        
+        {
+            "contents": "In the 10th century there were 80,000 inhabitants. Today there are only 12,000.",
+            "type": "paragraph"
+        }
+    ],
+
+    "question": {
+        "contents": "What caused the decline of Provins?",
+        
+        "choices": [
+            "The fairs disappeared",
+            "Trading routes were changed",
+            "Wars occurred",
+            "Flooding occurred"
+        ],
+        
+        "answer": [0, 1, 2],
+
+        "explanations": [
+            {
+                "contents": "It happened over a few decades in the 14th century because the fairs disappeared, (fairs in the South took over), trading routes were changed, wars and epidemics ravaged the area.",
+                "type": "paragraph"
+            }
+        ]
+    }
+}

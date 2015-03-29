@@ -1,0 +1,33 @@
+{
+    "name": "La Place du Châtel",
+    
+    "contents": [
+        {
+            "contents": "Poursuivre : Tournez à droite sur la rue Couverte.",
+            "type": "paragraph"
+        },
+
+        {
+            "contents": "110 mètres",
+            "type": "paragraph",
+            "icon": "footprints.png"
+        },
+
+        {
+            "alt": "Photo de la Place du Châtel",
+            "type": "image",
+            "src": "place-chatel.jpg"
+        }, 
+        
+        {
+            "contents": "Te voilà au centre de la ville Haute. C’est au pied de la croix des Changes que les marchands se réunissaient.",
+            "type": "paragraph"
+        },
+
+        {
+            "contents":"À l’époque, les marchands étaient petits, ils mesuraient à peine la moitié de la taille du socle. Mets-toi à côté et compare avec ta taille.",
+            "type":"paragraph"
+        }
+    ]
+
+}

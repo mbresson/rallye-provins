@@ -1,0 +1,47 @@
+{
+    "name": "Notre Dame du Val",
+    
+    "contents": [
+        {
+            "contents": "Stand with your back to the church and follow the ”Rue Notre Dame”. You should be able to see the Tower of Notre Dame du Val.",
+            "type": "paragraph"
+        },
+
+        {
+            "contents": "110 metres",
+            "type": "paragraph",
+            "icon": "footprints.png"
+        },
+
+        {
+            "contents": "The Survivor",
+            "type": "title"
+        },
+        
+        {
+            "contents": "Look at the tower carefully.",
+            "type": "paragraph"
+        }     
+    ],
+
+    "question": {
+        "contents": "What used to stand there instead?",
+        
+        "choices": [
+            "A dungeon",
+            "A castle",
+            "A house",
+            "A collegiate church"
+        ],
+        
+        "answer": 3,
+
+        "explanations" : [
+            {
+                "type": "paragraph",
+                "contents": "There used to be a collegiate church and the Tower was its entrance. Everything was destroyed during the French revolution and only the Tower is left standing."
+            }
+
+        ]
+    }
+}

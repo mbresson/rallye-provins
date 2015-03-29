@@ -1,0 +1,48 @@
+{
+    "name": "The blazon of Provins",
+    
+    "contents": [
+        {
+            "contents": "Go back to the “Rue Couverte” and walk straight ahead to the “Rue de Jouy”.",
+            "type": "paragraph"
+        },
+
+        {
+            "contents": "170 metres",
+            "type": "paragraph",
+            "icon": "footprints.png"
+        },
+
+        {
+            "contents": "The emblem",
+            "type": "title"
+        },
+        
+        {
+            "alt": "Picture of the blazon of Provins",
+            "type": "image",
+            "src": "blason.png"
+        }
+    ],
+
+    "question": {
+        "contents": "Which monument does is represent?",
+        
+        "choices": [
+            "La Caesar tower",
+            "The Saint Quiriace Collegiate church",
+            "The Grange",
+            "The Saint Jean Door"
+        ],
+        
+        "answer": 0 ,
+
+        "explanations" : [
+            {
+                "type": "paragraph",
+                "contents": "The Caesar tower being the most impressive monument in the city, it is represented on the blazon."
+            }
+
+        ]
+    }
+}

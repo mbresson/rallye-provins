@@ -1,0 +1,35 @@
+{
+    "name": "La Porte Saint-Jean",
+    
+    "contents": [
+        {
+            "contents": "Entrée bien gardée",
+            "type": "title"
+        },
+        
+        {
+            "contents": "Passage incontournable pour vos premiers pas à Provins, la Porte Saint-Jean édifiée au XIIIe siècle par Thibaud IV Comte de Champagne, servait à contrôler l’entrée dans la ville et ainsi à en assurer sa sécurité. Cette muraille impressionnante mesure 25 m de haut.",
+            "type": "paragraph"
+        }
+    ],
+
+    "question": {
+        "contents": "Quelle est l’utilité du bossage des pierres ?",
+        
+        "choices": [
+            "Arrêter les boulets",
+            "Empêcher de grimper",
+            "Faire joli",
+            "Meilleure conservation"
+        ],
+        
+        "answer": 2,
+
+        "explanations": [
+            {
+                "contents": "Ces pierres servent juste à attirer l’oeil, contrairement à ce que l’on pourrait croire, leur but est uniquement esthétique.",
+                "type": "paragraph"
+            }
+        ]
+    }
+}

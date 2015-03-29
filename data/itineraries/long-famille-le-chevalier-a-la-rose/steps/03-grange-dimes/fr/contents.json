@@ -1,0 +1,43 @@
+{
+    "name": "La Grange aux dîmes",
+    
+    "contents": [
+
+        {
+            "contents": "La maison des marchands",
+            "type": "title"
+        },
+
+        {
+            "alt": "Photo de l'intérieur de la Grange aux Dîmes",
+            "type": "image",
+            "src": "grange-interieur.jpg"
+        }, 
+        
+        {
+            "contents": "À l’intérieur, on peut voir tous les marchands en train de travailler, par exemple le marchand d’épices italien, ou le changeur d’argent.",
+            "type": "paragraph"
+        }     
+    ],
+
+    "question": {
+        "contents": "À votre avis, sur une maison à trois étages à quel niveau vivaient les marchands ?",
+        
+        "choices": [
+            "Niveau -1",
+            "Niveau 0",
+            "Niveau 1",
+            "Aucun"
+        ],
+        
+        "answer": 2,
+
+        "explanations" : [
+            {
+                "type": "paragraph",
+                "contents": "Le niveau 1 servait d’espace privé pour les marchands. Le niveau -1 était utilisé comme entrepôt et atelier pour les artisans tandis que le niveau 0 servait d’étal pour les marchandises."
+            }
+
+        ]
+    }
+}

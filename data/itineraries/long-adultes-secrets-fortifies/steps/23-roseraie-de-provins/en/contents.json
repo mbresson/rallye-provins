@@ -1,0 +1,52 @@
+{
+    "name": "The rose garden",
+    
+    "contents": [
+        {
+            "contents": "Walk across the park to reach the Aligre Boulevard. Turn left. On the way, you can see the Abbey of the Cordelières on your right. Turn left into the “Rue des Prés” and behold the Rose Garden of Provins!",
+            "type": "paragraph"
+        },
+
+        {
+            "contents": "500 metres",
+            "type": "paragraph",
+            "icon": "footprints.png"
+        },
+
+        {
+            "contents": "The timeless rose",
+            "type": "title"
+        },
+
+        {
+            "alt": "Photo of the rose of Provins",
+            "type": "image",
+            "src": "rose.jpg"
+        },
+        
+        {
+            "contents": "It is a large garden, over 3 hectares. More than 300 varieties of roses are grown there. The Rose of Provins is the best known.",
+            "type": "paragraph"
+        }
+    ],
+
+    "question": {
+        "contents": "What is the other name of the rose of Provins",
+        
+        "choices": [
+            "Gallinacée",
+            "Gallic",
+            "Galimatias",
+            "Gallo-Roman"
+        ],
+        
+        "answer": 1,
+
+        "explanations": [
+            {
+                "contents": "The Rose of Provins, also called the Gallic Rose is not a spectacular flower, so it is no longer produced elsewhere.",
+                "type": "paragraph"
+            }
+        ]
+    }
+}

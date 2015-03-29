@@ -1,0 +1,33 @@
+{
+    "name": "Les Souterrains et l'Hôtel-Dieu",
+    
+    "contents": [
+        {
+            "contents": "Poursuivre : Poursuivez votre chemin sur la rue Saint-Thibault. Sur votre droite, vous allez apercevoir le lieu de votre prochaine étape : Les Souterrains et l’Hôtel-Dieu.",
+            "type": "paragraph"
+        },
+
+        {
+            "contents": "97 mètres",
+            "type": "paragraph",
+            "icon": "footprints.png"
+        },
+
+        {
+            "contents": "L'Hôtel-Dieu",
+            "type": "title"
+        },
+
+        {
+            "alt": "Photo de la salle basse de l'Hôtel-Dieu",
+            "type": "image",
+            "src": "salle-basse-hotel-dieu.jpg"
+        }, 
+        
+        {
+            "contents": "C’est Thibaut II qui a fondé cet Hôtel-Dieu. C’est ici qu’on peut dormir lorsqu’on est un pèlerin.",
+            "type": "paragraph"
+        }     
+    ]
+
+}

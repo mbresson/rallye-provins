@@ -1,0 +1,46 @@
+{
+    "name": "Tour César",
+    
+    "contents": [
+        {
+            "contents": "Poursuivre : Continuez rue Jean-Desmarets. Puis tournez à gauche rue de la Pie. Vous devriez apercevoir la Tour César, le lieu de votre prochaine étape.",
+            "type": "paragraph"
+        },
+
+        {
+            "contents": "180 mètres",
+            "type": "paragraph",
+            "icon": "footprints.png"
+        },
+
+        {
+            "contents": "Ave Cesar",
+            "type": "title"
+        },
+        
+        {
+            "contents": "Contrairement à ce que l’on pourrait penser, cette tour n’est pas d’origine romaine. L’appellation “Tour César” date de la Renaissance et provient du mythe que la construction de la tour est due aux romains, mythe infirmé depuis le XIXe siècle (même si le nom est resté). Cette imposante tour donjon a rempli de multiples fonctions (tour de guet, prison, clocher) mais ce n’est pas dans ce but qu’elle a été construite.",
+            "type": "paragraph"
+        }
+    ],
+
+    "question": {
+        "contents": "À votre avis, quel était le but premier de la construction ?",
+        
+        "choices": [
+            "Une prison",
+            "Un moyen de défense",
+            "Affirmer sa puissance",
+            "Résidence de Thibaud IV de Champagne"
+        ],
+        
+        "answer": 2,
+
+        "explanations": [
+            {
+                "contents": "Au début la tour était un donjon mais son vrai but est l’affirmation du domaine.",
+                "type": "paragraph"
+            }
+        ]
+    }
+}

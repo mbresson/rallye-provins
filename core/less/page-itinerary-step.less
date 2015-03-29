@@ -1,0 +1,152 @@
+
+
+/*****************************
+         DEPENDENCIES
+*****************************/
+
+@import 'variables.less';
+
+
+/*****************************
+            STYLE
+*****************************/
+
+#page-itinerary-step {
+
+  header h1 {
+    font-size: 1.1em;
+  }
+
+  section {
+
+    .with-icon {
+      line-height: @global-icon-height;
+      font-weight: bold;
+    }
+
+    .icon {
+      float: left;
+      max-height: @global-icon-height;
+      width: auto;
+      margin-right: 10px;
+    }
+
+  }
+
+  .image {
+    text-align: center;
+  }
+
+  .image img {
+    max-width: 90%;
+  }
+
+  .explanations {
+    display: none;
+  }
+
+  .question fieldset {
+    border: none;
+  }
+
+  .question .choice {
+    font-size: 1.1em;
+  }
+
+  .question .choice input {
+    display: block;
+    float: left;
+    margin: @global-item-spacing/3;
+  }
+
+  .question .choice label:before {
+    content: '✗';
+    visibility: hidden;
+  }
+
+  .question .choice.checked.right label:before {
+    content: '✓';
+  }
+
+
+  .question form.submitted {
+
+    .choice.right {
+      color: #009E2F;
+    }
+
+    .choice.wrong {
+      color: #CCC;
+    }
+
+    .choice.checked.wrong {
+      color: #741321;
+    }
+
+    .choice.checked label:before, .choice.right label:before {
+      visibility: visible;
+    }
+    
+    .choice input {
+      visibility: hidden;
+    }
+
+    .explanations {
+      display: block;
+    }
+
+    input.submit {
+      display: none;
+    }
+
+  }
+
+  .question .choice label {
+    display: block;
+    padding: @global-item-spacing 0;
+    width: 100%;
+  }
+
+  input.submit {
+    display: block;
+    margin: auto;
+    margin-top: @global-item-spacing;
+  }
+
+  .controls {
+    text-align: center;
+  }
+
+  .controls a {
+    display: inline-block;
+    vertical-align: top;
+    margin: 0 4%;
+  }
+
+  .controls a.step-back {
+    position: absolute;
+    left: 0;
+  }
+
+  .controls a.step-next {
+    position: absolute;
+    right: 0;
+  }
+
+  .controls img {
+    max-width: 50px;
+  }
+
+  .controls .button {
+    width: 30%;
+    margin-top: 7px;
+  }
+
+  .close {
+    text-align: right;
+  }
+
+} /* #page-itinerary-step */
+
+/* DO NOT ADD STYLING AFTER THE FINAL CLOSING BRACE */
+

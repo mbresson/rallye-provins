@@ -1,0 +1,47 @@
+{
+    "name": "About Provins",
+    
+    "contents": [
+        {
+            "contents": "Now take the ”rue de la Cordonnerie” on the left of the town hall.",
+            "type": "paragraph"
+        },
+
+        {
+            "contents": "120 metres",
+            "type": "paragraph",
+            "icon": "footprints.png"
+        },
+
+        {
+            "contents": "Provins, the famous city",
+            "type": "title"
+        },
+        
+        {
+            "contents": "In the past, Provins was as famous as Paris or Rouen.",
+            "type": "paragraph"
+        }     
+    ],
+
+    "question": {
+        "contents": "What made it so famous?",
+        
+        "choices": [
+            "Because it was the best preserved medieval town in France",
+            "Because it is an ancient market town",
+            "Because of the rose",
+            "Because it was a Roman town"
+        ],
+        
+        "answer": [0, 1, 2] ,
+
+        "explanations" : [
+            {
+                "type": "paragraph",
+                "contents": "Provins welcomed both knights and tradesmen. And it is still well preserved."
+            }
+
+        ]
+    }
+}

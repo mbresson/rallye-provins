@@ -1,0 +1,46 @@
+{
+    "name": "The museum of Provins",
+    
+    "contents": [
+        {
+            "contents": "Now turn your back on the Collegiate church and take the “Rue Pierre Ythier” on your right, then the “Rue du Palis” on your left. Walk on for a few metres. On your left is the Museum of Provins and its region.",
+            "type": "paragraph"
+        },
+
+        {
+            "contents": "160 metres",
+            "type": "paragraph",
+            "icon": "footprints.png"
+        },
+
+        {
+            "contents": "When time stops",
+            "type": "title"
+        },
+        
+        {
+            "contents": "In the basement of the museum there is a room with a display of artefacts dating back to prehistoric times.",
+            "type": "paragraph"
+        }
+    ],
+
+    "question": {
+        "contents": "What makes this museum special?",
+        
+        "choices": [
+            "It dates back to the 13th century",
+            "Because it is housed in the Romane House",
+            "It is one of the oldest houses in Provins",
+            "It was renovated after being burnt down"
+        ],
+        
+        "answer": [1, 2],
+
+        "explanations": [
+            {
+                "contents": "It was set up inside the Romane House, one of the oldest houses in the town ( 12th century). It houses collections dating back from Antiquity to the 19th century. It is about the history of Provins and its surroundings.",
+                "type": "paragraph"
+            }
+        ]
+    }
+}
