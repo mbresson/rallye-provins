@@ -13,10 +13,15 @@ License
 
 The source code is released under CeCILL-B license. See LICENSE file for more information.
 
-Third-party libraries
----------------------
+Third-party
+-----------
 
   * [Slim Framework](http://www.slimframework.com/)
   * [Twig template engine](http://twig.sensiolabs.org/)
   * [jQuery](http://jquery.com/)
+
+Other resources
+---------------
+
+  * [Lato fonts](http://www.latofonts.com/lato-free-fonts/)
 
