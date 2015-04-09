@@ -3,6 +3,12 @@
     
     "contents": [
         {
+            "alt": "Minimap to find your way to the next step",
+            "type": "image",
+            "src": "directions-familles-step21.jpg"
+        },
+
+        {
             "contents": "Come back to the Saint-Ayoul square. Retrace your steps along the ”Rue de la Cordonnerie”. Turn right into the ”rue Alain Peyrefitte” and then left into the ”rue du petit cimetière sainte croix” from which you can see the Sainte-Croix church.",
             "type": "paragraph"
         },

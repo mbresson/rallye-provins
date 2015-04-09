@@ -3,6 +3,12 @@
     
     "contents": [
         {
+            "alt": "Minicarte pour trouver son chemin",
+            "type": "image",
+            "src": "directions-adultes-step8.jpg"
+        },
+
+        {
             "contents": "Poursuivre : Continuez rue Jean-Desmarets. Puis tournez à gauche rue de la Pie. Vous devriez apercevoir la Tour César, le lieu de votre prochaine étape.",
             "type": "paragraph"
         },

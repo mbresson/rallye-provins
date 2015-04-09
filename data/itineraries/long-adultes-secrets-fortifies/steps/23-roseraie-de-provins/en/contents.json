@@ -3,6 +3,12 @@
     
     "contents": [
         {
+            "alt": "Minimap to find your way to the next step",
+            "type": "image",
+            "src": "directions-adultes-step24.jpg"
+        },
+
+        {
             "contents": "Walk across the park to reach the Aligre Boulevard. Turn left. On the way, you can see the Abbey of the Cordelières on your right. Turn left into the “Rue des Prés” and behold the Rose Garden of Provins!",
             "type": "paragraph"
         },

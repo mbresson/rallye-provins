@@ -6,8 +6,8 @@
 
 <p>{% trans %}Rallye Provins is a web application created by a team of four students of IMAC engineering school. Visitors in Provins can use it to discover the town in an entertaining way.{% endtrans %}</p>
 
-<div class='logo'>
-  <a href='http://www.ingenieur-imac.fr/' title='' target='_blank'><img src='{{ GLOB.Router.root }}img/imac.png' alt='' /></a>
+<div id='imac-link'>
+  <a href='http://www.ingenieur-imac.fr/' title='' target='_blank'><img src='{{ GLOB.Router.root }}img/about-imac.png' alt='' /></a>
 </div>
 
 <p>
@@ -24,11 +24,24 @@
   <li><em>Alice Neichols</em></li>
 </ul>
 
+<h4>{% trans %}With the help of our two tutors:{% endtrans %}</h4>
+
+<ul>
+  <li><em>Vincent Nozick - LIGM - U-PEM</em></li>
+  <li><em>Tewfik Ettayeb - {% trans('Institute of Technology of Champs-sur-Marne, Department of Computer Science') %}</em></li>
+</ul>
+
 <h4>{% trans %}Many thanks to our translators:{% endtrans %}</h4>
 
 <ul>
-  <li><em>Dominique Touré</em> ({% trans %}English translation{% endtrans %})</li>
+  <li><em>Dominique Touré - {% trans('Institute of Technology of Champs-sur-Marne, Department of Computer Science') %}</em> ({% trans %}English translation{% endtrans %})</li>
 </ul>
+
+<div id='academic-links'>
+  <a href='http://esipe.u-pem.fr/' title='' class='float-right' target='_blank'><img src='{{ GLOB.Router.root }}img/about-esipe.png' alt='' /></a>
+
+  <a href='http://www.u-pem.fr/' title='' target='_blank'><img src='{{ GLOB.Router.root }}img/about-upem.png' alt='' /></a>
+</div>
 
 <h3 class='copyright'>© Rallye Provins {{ "now"|date('Y') }}</h3>
 

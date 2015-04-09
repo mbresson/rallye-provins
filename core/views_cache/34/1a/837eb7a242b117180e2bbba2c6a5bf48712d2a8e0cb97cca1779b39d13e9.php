@@ -92,7 +92,10 @@ class __TwigTemplate_341a837eb7a242b117180e2bbba2c6a5bf48712d2a8e0cb97cca1779b39
 <div class='facebook'>
   <div id=\"fb-root\"></div>
 
-  <div class=\"fb-share-button social\" data-href=\"http://provins.matthieu-bresson.com\" data-layout=\"button\"></div>
+  <div class=\"fb-share-button social\" data-href=\"";
+        // line 36
+        echo twig_escape_filter($this->env, $this->getAttribute($this->getAttribute($this->getAttribute((isset($context["GLOB"]) ? $context["GLOB"] : $this->getContext($context, "GLOB")), "data", array()), "contact", array()), "facebook", array()), "html", null, true);
+        echo "\" data-layout=\"button\"></div>
 
   <div class=\"fb-like social\" data-href=\"";
         // line 38
@@ -115,6 +118,6 @@ class __TwigTemplate_341a837eb7a242b117180e2bbba2c6a5bf48712d2a8e0cb97cca1779b39
 
     public function getDebugInfo()
     {
-        return array (  99 => 38,  86 => 27,  84 => 26,  80 => 25,  74 => 21,  72 => 20,  66 => 19,  59 => 14,  56 => 12,  54 => 11,  51 => 10,  49 => 9,  45 => 7,  43 => 6,  39 => 4,  36 => 3,  11 => 1,);
+        return array (  102 => 38,  97 => 36,  86 => 27,  84 => 26,  80 => 25,  74 => 21,  72 => 20,  66 => 19,  59 => 14,  56 => 12,  54 => 11,  51 => 10,  49 => 9,  45 => 7,  43 => 6,  39 => 4,  36 => 3,  11 => 1,);
     }
 }

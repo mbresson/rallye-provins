@@ -255,6 +255,18 @@ msgstr "Nous remercions nos traducteurs :"
 msgid "English translation"
 msgstr "traduction anglaise"
 
+#: ../../../views_cache/4b/b8/b54bc21d7bf330dea361fa735481b9e2dcbc053283cac5aa365ea2e7f05e.php
+msgid "Institute of Technology of Champs-sur-Marne, Department of Computer Science"
+msgstr "DUT Informatique, IUT de Champs-sur-Marne"
+
+#: ../../../views_cache/4b/b8/b54bc21d7bf330dea361fa735481b9e2dcbc053283cac5aa365ea2e7f05e.php
+msgid "IMAC engineering school"
+msgstr "École d'ingénieur IMAC"
+
+#: ../../../views_cache/4b/b8/b54bc21d7bf330dea361fa735481b9e2dcbc053283cac5aa365ea2e7f05e.php
+msgid "With the help of our two tutors:"
+msgstr "Avec l'aide de nos deux tuteurs :"
+
 #~ msgid "404 Page Not Found! Are you lost? Go back home!"
 #~ msgstr "404 Page Non Trouvée !"
 

@@ -3,6 +3,12 @@
     
     "contents": [
         {
+            "alt": "Minimap to find your way to the next step",
+            "type": "image",
+            "src": "directions-adultes-step8.jpg"
+        },
+
+        {
             "contents": "Go down the “Rue Jean-Desmarets and turn left into the “Rue de la Pie”. You should be able to see the Caesar Tower, your next stop.",
             "type": "paragraph"
         },

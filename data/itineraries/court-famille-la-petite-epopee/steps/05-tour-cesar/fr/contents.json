@@ -3,6 +3,12 @@
     
     "contents": [
         {
+            "alt": "Minicarte pour trouver son chemin",
+            "type": "image",
+            "src": "directions-familles-step6.jpg"
+        },
+
+        {
             "contents": "Poursuivre : Traversez la place. Sur votre gauche, vous apercevrez la La Maison du Terroir et de l’Artisanat. Prenez à droite, rue de l’Ormerie. Continuez rue Jean-Desmarets. Puis tournez à gauche rue de la Pie. Vous devriez apercevoir la Tour César, le lieu de votre prochaine étape.",
             "type": "paragraph"
         },

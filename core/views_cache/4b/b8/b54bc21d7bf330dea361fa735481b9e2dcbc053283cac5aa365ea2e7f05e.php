@@ -47,11 +47,11 @@ class __TwigTemplate_4bb8b54bc21d7bf330dea361fa735481b9e2dcbc053283cac5aa365ea2e
         echo gettext("Rallye Provins is a web application created by a team of four students of IMAC engineering school. Visitors in Provins can use it to discover the town in an entertaining way.");
         echo "</p>
 
-<div class='logo'>
+<div id='imac-link'>
   <a href='http://www.ingenieur-imac.fr/' title='' target='_blank'><img src='";
         // line 10
         echo twig_escape_filter($this->env, $this->getAttribute($this->getAttribute((isset($context["GLOB"]) ? $context["GLOB"] : $this->getContext($context, "GLOB")), "Router", array()), "root", array()), "html", null, true);
-        echo "img/imac.png' alt='' /></a>
+        echo "img/about-imac.png' alt='' /></a>
 </div>
 
 <p>
@@ -78,18 +78,45 @@ class __TwigTemplate_4bb8b54bc21d7bf330dea361fa735481b9e2dcbc053283cac5aa365ea2e
 
 <h4>";
         // line 27
+        echo gettext("With the help of our two tutors:");
+        echo "</h4>
+
+<ul>
+  <li><em>Vincent Nozick - LIGM - U-PEM</em></li>
+  <li><em>Tewfik Ettayeb - ";
+        // line 31
+        echo gettext("Institute of Technology of Champs-sur-Marne, Department of Computer Science");
+        echo "</em></li>
+</ul>
+
+<h4>";
+        // line 34
         echo gettext("Many thanks to our translators:");
         echo "</h4>
 
 <ul>
-  <li><em>Dominique Touré</em> (";
-        // line 30
+  <li><em>Dominique Touré - ";
+        // line 37
+        echo gettext("Institute of Technology of Champs-sur-Marne, Department of Computer Science");
+        echo "</em> (";
         echo gettext("English translation");
         echo ")</li>
 </ul>
 
+<div id='academic-links'>
+  <a href='http://esipe.u-pem.fr/' title='' class='float-right' target='_blank'><img src='";
+        // line 41
+        echo twig_escape_filter($this->env, $this->getAttribute($this->getAttribute((isset($context["GLOB"]) ? $context["GLOB"] : $this->getContext($context, "GLOB")), "Router", array()), "root", array()), "html", null, true);
+        echo "img/about-esipe.png' alt='' /></a>
+
+  <a href='http://www.u-pem.fr/' title='' target='_blank'><img src='";
+        // line 43
+        echo twig_escape_filter($this->env, $this->getAttribute($this->getAttribute((isset($context["GLOB"]) ? $context["GLOB"] : $this->getContext($context, "GLOB")), "Router", array()), "root", array()), "html", null, true);
+        echo "img/about-upem.png' alt='' /></a>
+</div>
+
 <h3 class='copyright'>© Rallye Provins ";
-        // line 33
+        // line 46
         echo twig_escape_filter($this->env, twig_date_format_filter($this->env, "now", "Y"), "html", null, true);
         echo "</h3>
 
@@ -108,6 +135,6 @@ class __TwigTemplate_4bb8b54bc21d7bf330dea361fa735481b9e2dcbc053283cac5aa365ea2e
 
     public function getDebugInfo()
     {
-        return array (  93 => 33,  87 => 30,  81 => 27,  69 => 18,  65 => 16,  62 => 15,  60 => 14,  53 => 10,  47 => 7,  42 => 5,  39 => 4,  36 => 3,  11 => 1,);
+        return array (  120 => 46,  114 => 43,  109 => 41,  100 => 37,  94 => 34,  88 => 31,  81 => 27,  69 => 18,  65 => 16,  62 => 15,  60 => 14,  53 => 10,  47 => 7,  42 => 5,  39 => 4,  36 => 3,  11 => 1,);
     }
 }
