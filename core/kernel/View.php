@@ -80,6 +80,8 @@ class View {
     }
 
     $app = \Slim\Slim::getInstance();
+    
+    $data['gmapApiKey'] = $_ENV['GMAP_API_KEY'];
 
     $app->view()->setData(
       'GLOB',
