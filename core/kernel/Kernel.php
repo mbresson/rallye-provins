@@ -77,6 +77,10 @@ class Kernel {
     // load config from data/config.json
     $this->config = Data::load('config');
 
+    $_SERVER['REQUEST_SCHEME'] = 'https';
+    $_SERVER['HTTPS'] = 'on';
+    $_SERVER['SERVER_PORT'] = 443;
+
     date_default_timezone_set("Europe/Paris");
 
     // create Slim instance
